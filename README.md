@@ -3,14 +3,14 @@
 ## About Me
 I'm a passionate Cyber security student, currently exploring various aspects of human life and computers life too.
 
-## 🔥 Interests
+## Interests
 - Cybersecurity & Ethical Hacking 🛡️
 - Web Development (HTML, CSS, JavaScript) 🌐
 - Digital Circuits & Embedded Systems ⚙️
 - Cryptography & Security Algorithms 🔐
 - Operating Systems & Programming 🖥️
 
-## 🌱 Currently Learning
+##  Currently Learning
 - Advanced Linux & Shell Scripting 🐧
 - Binary Search Trees & Data Structures 🌳
 - Secure Software Development 🔏
