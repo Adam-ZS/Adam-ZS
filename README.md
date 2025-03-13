@@ -1,5 +1,4 @@
-# Hi there! 👋 I'm @Adam-ZS
-
+# Hi there! 👋 I'm @Adam-ZS 
 ## About Me
 I'm a passionate Cyber security student, currently exploring various aspects of human life and computers life too.
 
@@ -11,9 +10,8 @@ I'm a passionate Cyber security student, currently exploring various aspects of 
 - Operating Systems & Programming 🖥️
 
 ##  Currently Learning
-- Advanced Linux & Shell Scripting 🐧
+- Advanced Linux :@
 - Binary Search Trees & Data Structures 🌳
-- Secure Software Development 🔏
 
 ## 💡 Looking to Collaborate On
 - Open-source security projects 🚀
