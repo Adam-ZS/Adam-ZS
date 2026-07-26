@@ -42,7 +42,12 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Adam-ZS&theme=black-ice&background=020805&stroke=122414&ring=00ff88&fire=ffcc44&currStreakNum=b8d4bc&sideNums=3d5e42&currStreakLabel=00ff88&sideLabels=3d5e42&dates=3d5e42&border=122414" width="480" />
+  <img src="https://grs.quantumly.dev/api?username=adam-zs&show_icons=true&bg_color=020805&text_color=b8d4bc&icon_color=00ff88&title_color=00ff88&border_color=122414&hide_border=true&count_private=true&include_all_commits=true" width="420" />
+  <img src="https://streak-stats.demolab.com/?user=Adam-ZS&theme=black-ice&background=020805&stroke=122414&ring=00ff88&fire=ffcc44&currStreakNum=b8d4bc&sideNums=3d5e42&currStreakLabel=00ff88&sideLabels=3d5e42&dates=3d5e42&border=122414" width="420" />
+</p>
+
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=Adam-ZS&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=4" width="95%" />
 </p>
 
 ### 🧰 arsenal
