@@ -7,42 +7,35 @@
 </p>
 
 <p align="center">
-  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20portfolio-00ff88?style=flat-square&logo=vercel&logoColor=020805&labelColor=020805&color=00ff88" /></a>
-  <a href="https://github.com/Adam-ZS"><img src="https://img.shields.io/badge/⟐%20repos-00ff88?style=flat-square&logo=github&logoColor=020805&labelColor=020805&color=00ff88" /></a>
-  <a href="https://linkedin.com/in/adam-soman"><img src="https://img.shields.io/badge/⟐%20linkedin-00ff88?style=flat-square&logo=linkedin&logoColor=020805&labelColor=020805&color=00ff88" /></a>
-  <a href="https://buymeacoffee.com/tf_a0"><img src="https://img.shields.io/badge/⟐%20support-00ff88?style=flat-square&logo=buymeacoffee&logoColor=020805&labelColor=020805&color=00ff88" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Adam%20ZS-00ff88?style=for-the-badge&logo=github&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Cybersecurity%20Engineer-00ff88?style=for-the-badge&logo=kalilinux&logoColor=020805" />
-  <br>
-  <img src="https://img.shields.io/badge/pentesting-00ff88?style=flat-square&labelColor=122414" />
-  <img src="https://img.shields.io/badge/threat%20intel-00ccff?style=flat-square&labelColor=122414" />
-  <img src="https://img.shields.io/badge/hardware%20sec-ffaa00?style=flat-square&labelColor=122414" />
-  <img src="https://img.shields.io/badge/AI%20security-ff44ff?style=flat-square&labelColor=122414" />
-</p>
-
-<p align="center">
-  <i>red teaming · exploit dev · hardware security · building tools that break things</i>
+  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20portfolio-020805?style=flat&logo=vercel&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
+  <a href="https://github.com/Adam-ZS?tab=repositories"><img src="https://img.shields.io/badge/⟐%20repos-020805?style=flat&logo=github&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
+  <a href="https://linkedin.com/in/adam-soman"><img src="https://img.shields.io/badge/⟐%20linkedin-020805?style=flat&logo=linkedin&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
+  <a href="https://buymeacoffee.com/tf_a0"><img src="https://img.shields.io/badge/⟐%20support-020805?style=flat&logo=buymeacoffee&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
+  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20pgp-020805?style=flat&logo=letsencrypt&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
 </p>
 
 ---
 
-**⟐ featured projects**
+### 🔐 about
 
-[![credforge](https://img.shields.io/badge/credforge-★4%20fork3-00ff88?style=for-the-badge&logo=github&logoColor=020805&labelColor=122414)](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator<br>
-[![AccessVault](https://img.shields.io/badge/AccessVault-★4%20fork1-4488ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)<br>
-[![GoogleForms](https://img.shields.io/badge/GoogleForms-★3%20fork3-ffcc00?style=for-the-badge&logo=github&logoColor=122414&labelColor=122414)](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms<br>
-[![MS Forms Bot](https://img.shields.io/badge/MS%20Forms%20Bot-★3-ff6600?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation<br>
-[![BEIN Proxy](https://img.shields.io/badge/BEIN%20Proxy-★2-cc44ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy<br>
-[![NOCTUA](https://img.shields.io/badge/NOCTUA-★1-4444cc?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework<br>
+> red teamer · exploit developer · hardware security researcher · building tools that break things
 
-<p align="right">
-  <a href="https://github.com/Adam-ZS"><code>all 28 repos → · 22 stars</code></a>
-</p>
+### 📦 featured projects
+
+| project | stars | description |
+|---------|-------|-------------|
+| [![credforge](https://img.shields.io/badge/credforge-00ff88?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/credforge) | ★4 ⑂3 | bulk email/password combos generator |
+| [![AccessVault](https://img.shields.io/badge/AccessVault-4488ff?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/AccessVault) | ★4 ⑂1 | Android biometric password manager (AES/CBC) |
+| [![GoogleForms](https://img.shields.io/badge/GoogleForms-ffcc00?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/GoogleForms) | ★3 ⑂3 | auto-fill & submit Google Forms |
+| [![MS Forms Bot](https://img.shields.io/badge/MS%20Forms%20Bot-ff6600?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) | ★3 | Microsoft Forms automation |
+| [![BEIN Proxy](https://img.shields.io/badge/BEIN%20Proxy-cc44ff?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/bein-sports-streaming) | ★2 | 12-channel sports streaming proxy |
+| [![NOCTUA](https://img.shields.io/badge/NOCTUA-4444cc?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/NOCTUA) | ★1 | Windows credential intelligence framework |
+
+<p align="right"><sub><a href="https://github.com/Adam-ZS"><code>all 28 repos → · 22 stars</code></a></sub></p>
 
 ---
+
+### 📈 stats
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adam-ZS&theme=chartreuse-dark&area=true&hide_border=true&custom_title=⟐+contributions&radius=8&point=00ff88&line=00ff88&area_color=00ff88" width="95%" />
@@ -52,7 +45,7 @@
   <img src="https://streak-stats.demolab.com/?user=Adam-ZS&theme=black-ice&background=020805&stroke=122414&ring=00ff88&fire=ffcc44&currStreakNum=b8d4bc&sideNums=3d5e42&currStreakLabel=00ff88&sideLabels=3d5e42&dates=3d5e42&border=122414" width="480" />
 </p>
 
-**⟐ tech stack**
+### 🧰 arsenal
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" />
@@ -61,8 +54,6 @@
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=020805" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff" />
   <br>
   <img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=020805" />
@@ -72,25 +63,33 @@
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/Metasploit-2B5CDE?style=for-the-badge&logo=metasploit&logoColor=ffffff" />
   <br>
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=020805" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff" />
 </p>
 
----
-
-**⟐ from the terminal**
+### 💻 terminal
 
 <p align="center">
-  <code>$ whoami    → adam.zs@cybersec</code><br>
-  <code>$ pwd       → /home/adam/red-team</code><br>
-  <code>$ ls        → credforge/ AccessVault/ NOCTUA/ exploits/ payloads/</code><br>
-  <code>$ uptime    → 2 years in security research</code><br>
-  <code>$ echo $JOK → "there are only 10 types of people in this world — those who understand binary and those who don't"</code>
+  <code>┌──(adam.zs㉿kali)-[~/red-team]</code><br>
+  <code>└─$ whoami</code><br>
+  <code>  &nbsp;&nbsp;→ adam.zs@cybersec</code><br>
+  <code>└─$ pwd</code><br>
+  <code>  &nbsp;&nbsp;→ /home/adam/red-team</code><br>
+  <code>└─$ ls -la</code><br>
+  <code>  &nbsp;&nbsp;→ drwxr-xr-x credforge/</code><br>
+  <code>  &nbsp;&nbsp;→ drwxr-xr-x AccessVault/</code><br>
+  <code>  &nbsp;&nbsp;→ drwxr-xr-x NOCTUA/</code><br>
+  <code>  &nbsp;&nbsp;→ drwxr-xr-x exploits/</code><br>
+  <code>  &nbsp;&nbsp;→ -rw-r--r-- payloads.zip</code><br>
+  <code>└─$ echo $JOKE</code><br>
+  <code>  &nbsp;&nbsp;→ "there are only 10 types of people in this world —</code><br>
+  <code>  &nbsp;&nbsp;   those who understand binary and those who don't"</code><br>
 </p>
 
 ---
