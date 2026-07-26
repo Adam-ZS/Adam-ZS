@@ -23,16 +23,49 @@
   <img src="https://img.shields.io/badge/AI%20security-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
 </p>
 
-**featured projects**
+**featured projects**  ⟐  badges
 
-- **★4 ⑂3** — [credforge](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator
-- **★4 ⑂1** — [AccessVault](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)
-- **★3 ⑂3** — [GoogleForms](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms
-- **★3** — [MS Forms Fill Bot](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation
-- **★2** — [BEIN Sports Proxy](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy
-- **★1** — [NOCTUA](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework
+<p align="center">
+  <a href="https://github.com/Adam-ZS/credforge">
+    <img src="https://img.shields.io/badge/credforge-★4%20fork3-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+    <br>
+    <sub>bulk email/password combos generator</sub>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Adam-ZS/AccessVault">
+    <img src="https://img.shields.io/badge/AccessVault-★4%20fork1-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+    <br>
+    <sub>Android biometric password manager</sub>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Adam-ZS/GoogleForms">
+    <img src="https://img.shields.io/badge/GoogleForms-★3%20fork3-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+    <br>
+    <sub>auto-fill & submit Google Forms</sub>
+  </a>
+  <br>
+  <a href="https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot">
+    <img src="https://img.shields.io/badge/MS%20Forms%20Bot-★3-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+    <br>
+    <sub>Microsoft Forms automation</sub>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Adam-ZS/bein-sports-streaming">
+    <img src="https://img.shields.io/badge/BEIN%20Proxy-★2-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+    <br>
+    <sub>12-channel sports streaming proxy</sub>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Adam-ZS/NOCTUA">
+    <img src="https://img.shields.io/badge/NOCTUA-★1-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+    <br>
+    <sub>Windows credential intel framework</sub>
+  </a>
+</p>
 
-[all 28 repos →](https://github.com/Adam-ZS) · 22 stars
+<p align="center">
+  <a href="https://github.com/Adam-ZS"><code>⟐ all 28 repos</code></a> &middot; 22 stars
+</p>
 
 ---
 
