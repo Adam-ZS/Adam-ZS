@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f0faf4"/>
       <stop offset="50%" stop-color="#e8f5ef"/>
       <stop offset="100%" stop-color="#f0faf4"/>
@@ -10,73 +10,104 @@
       <stop offset="50%" stop-color="#00aa55"/>
       <stop offset="100%" stop-color="#008844"/>
     </linearGradient>
-    <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="transparent"/>
-      <stop offset="50%" stop-color="#008844" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="transparent"/>
-    </linearGradient>
     <filter id="soft">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="260" fill="url(#bgGrad)" rx="12"/>
+  <rect width="1000" height="320" fill="url(#bg)" rx="14"/>
+  <rect x="3" y="3" width="994" height="314" fill="none" stroke="#008844" stroke-width="0.5" rx="12" opacity="0.06"/>
 
-  <!-- Subtle border -->
-  <rect x="2" y="2" width="896" height="256" fill="none" stroke="#008844" stroke-width="0.5" rx="10" opacity="0.08"/>
-
-  <!-- Grid -->
-  <g stroke="#008844" stroke-width="0.3" opacity="0.04">
-    <line x1="0" y1="50" x2="900" y2="50"/>
-    <line x1="0" y1="100" x2="900" y2="100"/>
-    <line x1="0" y1="150" x2="900" y2="150"/>
-    <line x1="0" y1="200" x2="900" y2="200"/>
-    <line x1="180" y1="0" x2="180" y2="260"/>
-    <line x1="360" y1="0" x2="360" y2="260"/>
-    <line x1="540" y1="0" x2="540" y2="260"/>
-    <line x1="720" y1="0" x2="720" y2="260"/>
+  <!-- Corner brackets -->
+  <g stroke="#008844" stroke-width="1.5" fill="none" opacity="0.15">
+    <path d="M25,30 L25,25 L30,25"/><path d="M975,30 L975,25 L970,25"/>
+    <path d="M25,290 L25,295 L30,295"/><path d="M975,290 L975,295 L970,295"/>
   </g>
 
-  <!-- Decorative node -->
-  <circle cx="30" cy="130" r="2" fill="#008844" opacity="0.06"/>
-  <circle cx="870" cy="130" r="2" fill="#008844" opacity="0.06"/>
+  <!-- Grid -->
+  <g stroke="#008844" stroke-width="0.3" opacity="0.03">
+    <line x1="0" y1="60" x2="1000" y2="60"/>
+    <line x1="0" y1="120" x2="1000" y2="120"/>
+    <line x1="0" y1="180" x2="1000" y2="180"/>
+    <line x1="0" y1="240" x2="1000" y2="240"/>
+    <line x1="250" y1="0" x2="250" y2="320"/>
+    <line x1="500" y1="0" x2="500" y2="320"/>
+    <line x1="750" y1="0" x2="750" y2="320"/>
+  </g>
 
-  <!-- Main name with accent -->
-  <text x="450" y="110" font-family="'Courier New','Consolas',monospace" font-size="44" fill="url(#accent)" text-anchor="middle" font-weight="bold" filter="url(#soft)" letter-spacing="6">
+  <!-- Signal bars -->
+  <g opacity="0.06">
+    <rect x="170" y="105" width="5" height="14" fill="#008844" rx="1">
+      <animate attributeName="height" values="14;20;10;14" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="105;99;109;105" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="180" y="100" width="5" height="24" fill="#008844" rx="1">
+      <animate attributeName="height" values="24;14;18;24" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="100;110;106;100" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="190" y="108" width="5" height="8" fill="#008844" rx="1">
+      <animate attributeName="height" values="8;16;12;8" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="108;100;104;108" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="200" y="103" width="5" height="18" fill="#008844" rx="1">
+      <animate attributeName="height" values="18;14;22;18" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="103;107;99;103" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g opacity="0.06">
+    <rect x="795" y="105" width="5" height="14" fill="#008844" rx="1">
+      <animate attributeName="height" values="14;18;12;14" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="105;101;107;105" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="805" y="100" width="5" height="24" fill="#008844" rx="1">
+      <animate attributeName="height" values="24;16;20;24" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="100;108;104;100" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="815" y="108" width="5" height="8" fill="#008844" rx="1">
+      <animate attributeName="height" values="8;14;10;8" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="108;102;106;108" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="825" y="103" width="5" height="18" fill="#008844" rx="1">
+      <animate attributeName="height" values="18;16;22;18" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="103;105;99;103" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Name -->
+  <text x="500" y="125" font-family="'Courier New','Consolas',monospace" font-size="52" fill="url(#accent)" text-anchor="middle" font-weight="bold" filter="url(#soft)" letter-spacing="8">
     ADAM ZS
   </text>
 
   <!-- Underline -->
-  <rect x="320" y="128" width="260" height="1" fill="#008844" opacity="0.2"/>
+  <rect x="360" y="146" width="280" height="1.5" fill="#008844" opacity="0.2"/>
 
   <!-- Role -->
-  <text x="450" y="155" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#3d5e42" text-anchor="middle" letter-spacing="5" opacity="0.5">
+  <text x="500" y="175" font-family="'Courier New','Consolas',monospace" font-size="12" fill="#3d5e42" text-anchor="middle" letter-spacing="6" opacity="0.5">
     CYBERSECURITY ENGINEER
   </text>
 
   <!-- Focus tags -->
-  <circle cx="210" cy="194" r="2.5" fill="#008844" opacity="0.2"/>
-  <text x="218" y="197" font-family="'Courier New','Consolas',monospace" font-size="10" fill="#008844" opacity="0.4">pentesting</text>
+  <circle cx="220" cy="218" r="3" fill="#008844" opacity="0.15"/>
+  <text x="230" y="222" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.35">pentesting</text>
 
-  <circle cx="380" cy="194" r="2.5" fill="#008844" opacity="0.2"/>
-  <text x="388" y="197" font-family="'Courier New','Consolas',monospace" font-size="10" fill="#008844" opacity="0.4">threat intel</text>
+  <circle cx="395" cy="218" r="3" fill="#008844" opacity="0.15"/>
+  <text x="405" y="222" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.35">threat intel</text>
 
-  <circle cx="539" cy="194" r="2.5" fill="#008844" opacity="0.2"/>
-  <text x="547" y="197" font-family="'Courier New','Consolas',monospace" font-size="10" fill="#008844" opacity="0.4">hardware sec</text>
+  <circle cx="570" cy="218" r="3" fill="#008844" opacity="0.15"/>
+  <text x="580" y="222" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.35">hardware sec</text>
 
-  <circle cx="700" cy="194" r="2.5" fill="#008844" opacity="0.2"/>
-  <text x="708" y="197" font-family="'Courier New','Consolas',monospace" font-size="10" fill="#008844" opacity="0.4">AI security</text>
+  <circle cx="745" cy="218" r="3" fill="#008844" opacity="0.15"/>
+  <text x="755" y="222" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.35">AI security</text>
 
-  <!-- Bottom terminal bar -->
-  <rect x="20" y="230" width="860" height="1" fill="#008844" opacity="0.08"/>
-  <text x="30" y="244" font-family="'Courier New','Consolas',monospace" font-size="10" fill="#3d5e42" opacity="0.4">
-    <tspan fill="#008844" filter="url(#soft)">adam-zs@github</tspan>:<tspan fill="#3d5e42">~</tspan>$ <tspan fill="#3d5e42" opacity="0.7">cat</tspan> <tspan fill="#3d5e42" opacity="0.4">profile.json</tspan>
+  <!-- Bottom bar -->
+  <rect x="25" y="255" width="950" height="1" fill="#008844" opacity="0.08"/>
+  <text x="35" y="272" font-family="'Courier New','Consolas',monospace" font-size="10" fill="#3d5e42" opacity="0.35">
+    <tspan fill="#008844" filter="url(#soft)">adam-zs@github</tspan>:~$ cat profile.ctl
   </text>
 
-  <!-- Cursor -->
-  <rect x="193" y="235" width="7" height="13" fill="#008844" opacity="0.3" rx="1">
-    <animate attributeName="opacity" values="0.3;0;0.3" dur="0.8s" repeatCount="indefinite"/>
+  <rect x="268" y="263" width="7" height="14" fill="#008844" opacity="0.2" rx="1">
+    <animate attributeName="opacity" values="0.2;0;0.2" dur="0.7s" repeatCount="indefinite"/>
   </rect>
 </svg>
