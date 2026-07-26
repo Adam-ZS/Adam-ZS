@@ -68,7 +68,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/cyber-joke-00ff88?style=for-the-badge&labelColor=122414" />
   <br>
-  <sub><code>there are only 10 types of people in this world — those who understand binary and those who don't</code></sub>
+  <i>"there are only 10 types of people in this world — those who understand binary and those who don't"</i>
 </p>
 
 ---
