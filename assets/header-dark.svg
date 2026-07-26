@@ -477,6 +477,29 @@
       <animate attributeName="opacity" values="0;0.15;0" dur="5s" repeatCount="indefinite" begin="6s"/>
       <animate attributeName="cy" values="260;245;260" dur="5s" repeatCount="indefinite" begin="6s"/>
     </circle>
+    <!-- YELLOW PARTICLES (added 26 Jul 2026) -->
+    <circle cx="200" cy="40" r="2.5" fill="#ffcc44" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="6s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="cy" values="40;15;40" dur="6s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="cx" values="200;215;200" dur="6s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="750" cy="35" r="2" fill="#ffaa00" opacity="0">
+      <animate attributeName="opacity" values="0;0.45;0" dur="5s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="cy" values="35;10;35" dur="5s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="cx" values="750;740;750" dur="5s" repeatCount="indefinite" begin="1.8s"/>
+    </circle>
+    <circle cx="420" cy="25" r="1.5" fill="#ffdd44" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="2.5s"/>
+      <animate attributeName="cy" values="25;5;25" dur="4s" repeatCount="indefinite" begin="2.5s"/>
+    </circle>
+    <circle cx="620" cy="200" r="2" fill="#ffcc44" opacity="0">
+      <animate attributeName="opacity" values="0;0.35;0" dur="7s" repeatCount="indefinite" begin="3.5s"/>
+      <animate attributeName="cy" values="200;175;200" dur="7s" repeatCount="indefinite" begin="3.5s"/>
+    </circle>
+    <circle cx="920" cy="100" r="1.5" fill="#ffbb00" opacity="0">
+      <animate attributeName="opacity" values="0;0.4;0" dur="5.5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="cy" values="100;75;100" dur="5.5s" repeatCount="indefinite" begin="1s"/>
+    </circle>
   </g>
 
   <!-- Sparkles -->

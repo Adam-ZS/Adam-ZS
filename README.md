@@ -20,6 +20,11 @@
 
 > red teamer · exploit developer · hardware security researcher · building tools that break things
 
+<p align="center">
+  <img src="https://img.shields.io/badge/⚠%20stealth%20mode-ffcc44?style=flat&labelColor=122414&color=ffcc44" />
+  <img src="https://img.shields.io/badge/⚡%20active%20dev-ffcc44?style=flat&labelColor=122414&color=ffcc44" />
+</p>
+
 ---
 
 ### 📈 stats

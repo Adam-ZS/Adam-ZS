@@ -16,6 +16,16 @@
   <!-- Terminal window frame -->
   <rect x="0" y="0" width="720" height="340" rx="8" fill="url(#termBg)" stroke="#122414" stroke-width="1.5"/>
   
+  <!-- Yellow glow bar top -->
+  <rect x="0" y="0" width="720" height="2" rx="1" fill="#ffcc44" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.3;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Yellow accent dot -->
+  <circle cx="680" cy="16" r="3" fill="#ffcc44" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
   <!-- Title bar -->
   <rect x="0" y="0" width="720" height="32" rx="8" fill="#161b22"/>
   <rect x="0" y="24" width="720" height="8" fill="#161b22"/>
@@ -69,10 +79,10 @@
     <text x="16" y="216" fill="#00ff88">└─$</text>
     <text x="52" y="216" fill="#b8d4bc">echo $JOKE</text>
     
-    <!-- Joke output - multi line -->
-    <text x="72" y="238" fill="#cc44ff">→</text>
-    <text x="88" y="238" fill="#b8d4bc">"there are only 10 types of people in this world —</text>
-    <text x="88" y="258" fill="#b8d4bc">those who understand binary and those who don't"</text>
+    <!-- Joke output - multi line, yellow -->
+    <text x="72" y="238" fill="#ffcc44">→</text>
+    <text x="88" y="238" fill="#ffcc44">"there are only 10 types of people in this world —</text>
+    <text x="88" y="258" fill="#ffcc44">those who understand binary and those who don't"</text>
     
     <!-- Blinking cursor -->
     <rect x="280" y="296" width="8" height="14" fill="#00ff88" opacity="0.8">
