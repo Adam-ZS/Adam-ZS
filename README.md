@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://adam-zs.github.io/portfolio"><code>⟐ portfolio</code></a>
+  <a href="https://adam-zs-portfolio.vercel.app/"><code>⟐ portfolio</code></a>
   <a href="https://github.com/Adam-ZS"><code>⟐ repos</code></a>
   <a href="https://linkedin.com/in/adam-soman"><code>⟐ linkedin</code></a>
   <a href="https://buymeacoffee.com/tf_a0"><code>⟐ support</code></a>
