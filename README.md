@@ -14,23 +14,23 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Adam%20ZS-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
-  <img src="https://img.shields.io/badge/Cybersecurity%20Engineer-122414?style=for-the-badge&logo=kalilinux&logoColor=00ff88&labelColor=00ff88" />
+  <img src="https://img.shields.io/badge/Adam%20ZS-00ff88?style=for-the-badge&logo=github&logoColor=020805" />
+  <img src="https://img.shields.io/badge/Cybersecurity%20Engineer-00ff88?style=for-the-badge&logo=kalilinux&logoColor=020805" />
   <br>
-  <img src="https://img.shields.io/badge/pentesting-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
-  <img src="https://img.shields.io/badge/threat%20intel-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
-  <img src="https://img.shields.io/badge/hardware%20sec-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
-  <img src="https://img.shields.io/badge/AI%20security-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
+  <img src="https://img.shields.io/badge/pentesting-00ff88?style=flat-square&labelColor=122414" />
+  <img src="https://img.shields.io/badge/threat%20intel-00ccff?style=flat-square&labelColor=122414" />
+  <img src="https://img.shields.io/badge/hardware%20sec-ffaa00?style=flat-square&labelColor=122414" />
+  <img src="https://img.shields.io/badge/AI%20security-ff44ff?style=flat-square&labelColor=122414" />
 </p>
 
 **featured projects**
 
-[![credforge ★4 fork3](https://img.shields.io/badge/credforge-★4%20fork3-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88)](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator
-[![AccessVault ★4 fork1](https://img.shields.io/badge/AccessVault-★4%20fork1-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88)](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)
-[![GoogleForms ★3 fork3](https://img.shields.io/badge/GoogleForms-★3%20fork3-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88)](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms
-[![MS Forms Bot ★3](https://img.shields.io/badge/MS%20Forms%20Bot-★3-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation
-[![BEIN Proxy ★2](https://img.shields.io/badge/BEIN%20Proxy-★2-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88)](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy
-[![NOCTUA ★1](https://img.shields.io/badge/NOCTUA-★1-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88)](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework
+[![credforge](https://img.shields.io/badge/credforge-★4%20fork3-00ff88?style=for-the-badge&logo=github&logoColor=020805&labelColor=122414)](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator
+[![AccessVault](https://img.shields.io/badge/AccessVault-★4%20fork1-4488ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)
+[![GoogleForms](https://img.shields.io/badge/GoogleForms-★3%20fork3-ffcc00?style=for-the-badge&logo=github&logoColor=122414&labelColor=122414)](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms
+[![MS Forms Bot](https://img.shields.io/badge/MS%20Forms%20Bot-★3-ff6600?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation
+[![BEIN Proxy](https://img.shields.io/badge/BEIN%20Proxy-★2-cc44ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy
+[![NOCTUA](https://img.shields.io/badge/NOCTUA-★1-4444cc?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework
 
 [all 28 repos →](https://github.com/Adam-ZS) · 22 stars
 
@@ -41,22 +41,22 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-00ff88?style=for-the-badge&logo=python&logoColor=020805" />
-  <img src="https://img.shields.io/badge/C++-00ff88?style=for-the-badge&logo=cplusplus&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Java-00ff88?style=for-the-badge&logo=openjdk&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Bash-00ff88?style=for-the-badge&logo=gnubash&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Kali-00ff88?style=for-the-badge&logo=kalilinux&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Docker-00ff88?style=for-the-badge&logo=docker&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Arduino-00ff88?style=for-the-badge&logo=arduino&logoColor=020805" />
-  <img src="https://img.shields.io/badge/nmap-00ff88?style=for-the-badge&logo=nmap&logoColor=020805" />
-  <img src="https://img.shields.io/badge/SQLite-00ff88?style=for-the-badge&logo=sqlite&logoColor=020805" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=ffffff" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adam-ZS&style=flat&color=00ff88&label=⟐+visitors" />
-  <img src="https://img.shields.io/github/stars/Adam-ZS?affiliations=OWNER&style=flat&color=00ff88&label=★+stars" />
-  <img src="https://img.shields.io/github/followers/Adam-ZS?style=flat&color=00ff88&label=✦+followers" />
-  <img src="https://img.shields.io/github/last-commit/Adam-ZS/Adam-ZS?style=flat&color=00ff88&label=⟐+updated" />
+  <img src="https://img.shields.io/badge/⟐_visitors-122414?style=flat&logo=github&logoColor=00ff88" />
+  <img src="https://img.shields.io/github/stars/Adam-ZS?style=flat&color=ffcc00&labelColor=122414&logo=github&logoColor=ffcc00&label=★+stars" />
+  <img src="https://img.shields.io/github/followers/Adam-ZS?style=flat&color=00ccff&labelColor=122414&logo=github&logoColor=00ccff&label=✦+followers" />
+  <img src="https://img.shields.io/github/last-commit/Adam-ZS/Adam-ZS?style=flat&color=ff44ff&labelColor=122414&logo=github&logoColor=ff44ff&label=⟐+updated" />
 </p>
