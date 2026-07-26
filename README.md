@@ -25,12 +25,12 @@
 
 **featured projects**
 
-[![credforge](https://img.shields.io/badge/credforge-★4%20fork3-00ff88?style=for-the-badge&logo=github&logoColor=020805&labelColor=122414)](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator
-[![AccessVault](https://img.shields.io/badge/AccessVault-★4%20fork1-4488ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)
-[![GoogleForms](https://img.shields.io/badge/GoogleForms-★3%20fork3-ffcc00?style=for-the-badge&logo=github&logoColor=122414&labelColor=122414)](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms
-[![MS Forms Bot](https://img.shields.io/badge/MS%20Forms%20Bot-★3-ff6600?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation
-[![BEIN Proxy](https://img.shields.io/badge/BEIN%20Proxy-★2-cc44ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy
-[![NOCTUA](https://img.shields.io/badge/NOCTUA-★1-4444cc?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework
+[![credforge](https://img.shields.io/badge/credforge-★4%20fork3-00ff88?style=for-the-badge&logo=github&logoColor=020805&labelColor=122414)](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator<br>
+[![AccessVault](https://img.shields.io/badge/AccessVault-★4%20fork1-4488ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)<br>
+[![GoogleForms](https://img.shields.io/badge/GoogleForms-★3%20fork3-ffcc00?style=for-the-badge&logo=github&logoColor=122414&labelColor=122414)](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms<br>
+[![MS Forms Bot](https://img.shields.io/badge/MS%20Forms%20Bot-★3-ff6600?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation<br>
+[![BEIN Proxy](https://img.shields.io/badge/BEIN%20Proxy-★2-cc44ff?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy<br>
+[![NOCTUA](https://img.shields.io/badge/NOCTUA-★1-4444cc?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=122414)](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework<br>
 
 [all 28 repos →](https://github.com/Adam-ZS) · 22 stars
 
