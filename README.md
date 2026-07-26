@@ -55,8 +55,8 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/⟐_visitors-122414?style=flat&logo=github&logoColor=00ff88" />
-  <img src="https://img.shields.io/github/stars/Adam-ZS?style=flat&color=ffcc00&labelColor=122414&logo=github&logoColor=ffcc00&label=★+stars" />
-  <img src="https://img.shields.io/github/followers/Adam-ZS?style=flat&color=00ccff&labelColor=122414&logo=github&logoColor=00ccff&label=✦+followers" />
-  <img src="https://img.shields.io/github/last-commit/Adam-ZS/Adam-ZS?style=flat&color=ff44ff&labelColor=122414&logo=github&logoColor=ff44ff&label=⟐+updated" />
+  <img src="https://komarev.com/ghpvc/?username=Adam-ZS&style=flat&color=00ff88&label=⟐+visitors" />
+  <img src="https://img.shields.io/github/stars/Adam-ZS?style=flat&color=ffcc00&label=★+stars" />
+  <img src="https://img.shields.io/github/followers/Adam-ZS?style=flat&color=00ccff&label=✦+followers" />
+  <img src="https://img.shields.io/github/last-commit/Adam-ZS/Adam-ZS?style=flat&color=ff44ff&label=⟐+updated" />
 </p>
