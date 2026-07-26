@@ -1,102 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f0faf4"/>
       <stop offset="50%" stop-color="#e8f5ef"/>
       <stop offset="100%" stop-color="#f0faf4"/>
     </linearGradient>
     <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="transparent"/>
-      <stop offset="30%" stop-color="#008844"/>
-      <stop offset="70%" stop-color="#008844"/>
+      <stop offset="20%" stop-color="#008844" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#008844"/>
+      <stop offset="80%" stop-color="#008844" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#008844" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#008844" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="softGlow">
+    <filter id="soft">
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
+
   <!-- Background -->
-  <rect width="900" height="200" fill="url(#grad)" rx="12"/>
-  
-  <!-- Grid dots -->
-  <g fill="#008844" opacity="0.06">
-    <circle cx="50" cy="30" r="1.5"/><circle cx="150" cy="30" r="1.5"/>
-    <circle cx="250" cy="30" r="1.5"/><circle cx="350" cy="30" r="1.5"/>
-    <circle cx="450" cy="30" r="1.5"/><circle cx="550" cy="30" r="1.5"/>
-    <circle cx="650" cy="30" r="1.5"/><circle cx="750" cy="30" r="1.5"/>
-    <circle cx="850" cy="30" r="1.5"/>
-    <circle cx="100" cy="60" r="1.5"/><circle cx="200" cy="60" r="1.5"/>
-    <circle cx="300" cy="60" r="1.5"/><circle cx="400" cy="60" r="1.5"/>
-    <circle cx="500" cy="60" r="1.5"/><circle cx="600" cy="60" r="1.5"/>
-    <circle cx="700" cy="60" r="1.5"/><circle cx="800" cy="60" r="1.5"/>
-    <circle cx="50" cy="90" r="1.5"/><circle cx="150" cy="90" r="1.5"/>
-    <circle cx="250" cy="90" r="1.5"/><circle cx="350" cy="90" r="1.5"/>
-    <circle cx="450" cy="90" r="1.5"/><circle cx="550" cy="90" r="1.5"/>
-    <circle cx="650" cy="90" r="1.5"/><circle cx="750" cy="90" r="1.5"/>
-    <circle cx="850" cy="90" r="1.5"/>
-    <circle cx="100" cy="120" r="1.5"/><circle cx="200" cy="120" r="1.5"/>
-    <circle cx="300" cy="120" r="1.5"/><circle cx="400" cy="120" r="1.5"/>
-    <circle cx="500" cy="120" r="1.5"/><circle cx="600" cy="120" r="1.5"/>
-    <circle cx="700" cy="120" r="1.5"/><circle cx="800" cy="120" r="1.5"/>
-    <circle cx="50" cy="150" r="1.5"/><circle cx="150" cy="150" r="1.5"/>
-    <circle cx="250" cy="150" r="1.5"/><circle cx="350" cy="150" r="1.5"/>
-    <circle cx="450" cy="150" r="1.5"/><circle cx="550" cy="150" r="1.5"/>
-    <circle cx="650" cy="150" r="1.5"/><circle cx="750" cy="150" r="1.5"/>
-    <circle cx="850" cy="150" r="1.5"/>
-    <circle cx="100" cy="180" r="1.5"/><circle cx="200" cy="180" r="1.5"/>
-    <circle cx="300" cy="180" r="1.5"/><circle cx="400" cy="180" r="1.5"/>
-    <circle cx="500" cy="180" r="1.5"/><circle cx="600" cy="180" r="1.5"/>
-    <circle cx="700" cy="180" r="1.5"/><circle cx="800" cy="180" r="1.5"/>
+  <rect width="900" height="200" fill="url(#bg)" rx="8"/>
+
+  <!-- Subtle grid -->
+  <g fill="#008844" opacity="0.04">
+    <circle cx="45" cy="30" r="1"/><circle cx="135" cy="30" r="1"/>
+    <circle cx="225" cy="30" r="1"/><circle cx="315" cy="30" r="1"/>
+    <circle cx="405" cy="30" r="1"/><circle cx="495" cy="30" r="1"/>
+    <circle cx="585" cy="30" r="1"/><circle cx="675" cy="30" r="1"/>
+    <circle cx="765" cy="30" r="1"/><circle cx="855" cy="30" r="1"/>
+    <circle cx="90" cy="65" r="1"/><circle cx="180" cy="65" r="1"/>
+    <circle cx="270" cy="65" r="1"/><circle cx="360" cy="65" r="1"/>
+    <circle cx="450" cy="65" r="1"/><circle cx="540" cy="65" r="1"/>
+    <circle cx="630" cy="65" r="1"/><circle cx="720" cy="65" r="1"/>
+    <circle cx="810" cy="65" r="1"/>
+    <circle cx="45" cy="100" r="1"/><circle cx="135" cy="100" r="1"/>
+    <circle cx="225" cy="100" r="1"/><circle cx="315" cy="100" r="1"/>
+    <circle cx="405" cy="100" r="1"/><circle cx="495" cy="100" r="1"/>
+    <circle cx="585" cy="100" r="1"/><circle cx="675" cy="100" r="1"/>
+    <circle cx="765" cy="100" r="1"/><circle cx="855" cy="100" r="1"/>
+    <circle cx="90" cy="135" r="1"/><circle cx="180" cy="135" r="1"/>
+    <circle cx="270" cy="135" r="1"/><circle cx="360" cy="135" r="1"/>
+    <circle cx="450" cy="135" r="1"/><circle cx="540" cy="135" r="1"/>
+    <circle cx="630" cy="135" r="1"/><circle cx="720" cy="135" r="1"/>
+    <circle cx="810" cy="135" r="1"/>
+    <circle cx="45" cy="170" r="1"/><circle cx="135" cy="170" r="1"/>
+    <circle cx="225" cy="170" r="1"/><circle cx="315" cy="170" r="1"/>
+    <circle cx="405" cy="170" r="1"/><circle cx="495" cy="170" r="1"/>
+    <circle cx="585" cy="170" r="1"/><circle cx="675" cy="170" r="1"/>
+    <circle cx="765" cy="170" r="1"/><circle cx="855" cy="170" r="1"/>
   </g>
-  
-  <!-- Glow line separator -->
-  <rect x="50" y="145" width="800" height="1" fill="url(#line)" opacity="0.3"/>
-  
-  <!-- Main text -->
-  <text x="450" y="72" font-family="'Courier New', monospace" font-size="22" fill="#008844" text-anchor="middle" font-weight="bold">
+
+  <!-- Outer terminal box -->
+  <rect x="20" y="15" width="860" height="170" rx="6" fill="none" stroke="#008844" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Title bar dots -->
+  <circle cx="36" cy="27" r="4" fill="#ff5f56" opacity="0.4"/>
+  <circle cx="52" cy="27" r="4" fill="#ffbd2e" opacity="0.4"/>
+  <circle cx="68" cy="27" r="4" fill="#27c93f" opacity="0.4"/>
+
+  <!-- Tab bar -->
+  <rect x="80" y="18" width="160" height="18" rx="3" fill="#008844" opacity="0.04"/>
+  <text x="120" y="31" font-family="'Courier New','Consolas',monospace" font-size="9" fill="#008844" text-anchor="middle" font-weight="bold" opacity="0.6">profile@adam-zs: ~</text>
+
+  <!-- Main name -->
+  <text x="450" y="80" font-family="'Courier New','Consolas',monospace" font-size="28" fill="#008844" text-anchor="middle" font-weight="bold" filter="url(#soft)">
     ADAM ZS
   </text>
-  <text x="450" y="98" font-family="'Courier New', monospace" font-size="13" fill="#3d5e42" text-anchor="middle" opacity="0.9">
-    Cybersecurity Engineer
+
+  <!-- Role -->
+  <text x="450" y="108" font-family="'Courier New','Consolas',monospace" font-size="12" fill="#3d5e42" text-anchor="middle" letter-spacing="2">
+    CYBERSECURITY  ENGINEER
   </text>
-  
-  <!-- Subtitle badges -->
-  <rect x="280" y="115" width="340" height="22" rx="11" fill="#008844" opacity="0.06"/>
-  <text x="450" y="131" font-family="'Courier New', monospace" font-size="10" fill="#3d5e42" text-anchor="middle">
-    pen testing  ·  threat intel  ·  hardware sec  ·  AI security
-  </text>
-  
+
+  <!-- Divider -->
+  <line x1="280" y1="122" x2="620" y2="122" stroke="url(#line)" stroke-width="1"/>
+
+  <!-- Focus tags -->
+  <rect x="260" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
+  <text x="300" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">pen testing</text>
+
+  <rect x="350" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
+  <text x="390" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">threat intel</text>
+
+  <rect x="440" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
+  <text x="480" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">hardware sec</text>
+
+  <rect x="530" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
+  <text x="570" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">AI security</text>
+
   <!-- Terminal prompt -->
-  <text x="70" y="168" font-family="'Courier New', monospace" font-size="11" fill="#3d5e42">
-    <tspan fill="#008844">~/profile</tspan><tspan fill="#3d5e42">$</tspan> <tspan fill="#3d5e42">cat</tspan> <tspan fill="#3d5e42">README.md</tspan>
+  <text x="45" y="176" font-family="'Courier New','Consolas',monospace" font-size="9" fill="#3d5e42" opacity="0.7">
+    <tspan fill="#008844">adam-zs@github</tspan>:<tspan fill="#3d5e42">~</tspan>$ <tspan fill="#3d5e42">cat</tspan> <tspan fill="#3d5e42" opacity="0.5">profile/README.md</tspan>
   </text>
-  
-  <!-- Animated cursor blink -->
-  <rect x="228" y="157" width="8" height="13" fill="#008844" opacity="0.6">
-    <animate attributeName="opacity" values="0.6;0;0.6" dur="1s" repeatCount="indefinite"/>
+
+  <!-- Blinking cursor -->
+  <rect x="215" y="167" width="6" height="10" fill="#008844" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="1s" repeatCount="indefinite"/>
   </rect>
-  
-  <!-- Floating particles -->
-  <circle cx="100" cy="40" r="2" fill="#008844" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="40;20;40" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="750" cy="50" r="1.5" fill="#008844" opacity="0">
-    <animate attributeName="opacity" values="0;0.3;0" dur="3.5s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="cy" values="50;25;50" dur="3.5s" repeatCount="indefinite" begin="1s"/>
-  </circle>
-  <circle cx="300" cy="35" r="1.5" fill="#00aa55" opacity="0">
-    <animate attributeName="opacity" values="0;0.3;0" dur="5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="cy" values="35;15;35" dur="5s" repeatCount="indefinite" begin="2s"/>
-  </circle>
-  
-  <!-- Left decorative brace -->
-  <text x="170" y="72" font-family="'Courier New', monospace" font-size="36" fill="#008844" opacity="0.15" text-anchor="middle">{</text>
-  <!-- Right decorative brace -->
-  <text x="730" y="72" font-family="'Courier New', monospace" font-size="36" fill="#008844" opacity="0.15" text-anchor="middle">}</text>
 </svg>
