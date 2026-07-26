@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20portfolio-020805?style=flat&logo=vercel&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
-  <a href="https://github.com/Adam-ZS?tab=repositories"><img src="https://img.shields.io/badge/⟐%20repos-020805?style=flat&logo=github&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
-  <a href="https://linkedin.com/in/adam-soman"><img src="https://img.shields.io/badge/⟐%20linkedin-020805?style=flat&logo=linkedin&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
-  <a href="https://buymeacoffee.com/tf_a0"><img src="https://img.shields.io/badge/⟐%20support-020805?style=flat&logo=buymeacoffee&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
-  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20pgp-020805?style=flat&logo=letsencrypt&logoColor=00ff88&labelColor=020805&color=00ff88" /></a>
+  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20portfolio-122414?style=flat&logo=vercel&logoColor=00ff88&labelColor=020805&color=122414" /></a>
+  <a href="https://github.com/Adam-ZS?tab=repositories"><img src="https://img.shields.io/badge/⟐%20repos-122414?style=flat&logo=github&logoColor=00ff88&labelColor=020805&color=122414" /></a>
+  <a href="https://linkedin.com/in/adam-soman"><img src="https://img.shields.io/badge/⟐%20linkedin-122414?style=flat&logo=linkedin&logoColor=00ff88&labelColor=020805&color=122414" /></a>
+  <a href="https://buymeacoffee.com/tf_a0"><img src="https://img.shields.io/badge/⟐%20support-122414?style=flat&logo=buymeacoffee&logoColor=00ff88&labelColor=020805&color=122414" /></a>
+  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20pgp-122414?style=flat&logo=letsencrypt&logoColor=00ff88&labelColor=020805&color=122414" /></a>
 </p>
 
 ---
@@ -43,11 +43,8 @@
 
 <p align="center">
   <img src="https://grs.quantumly.dev/api?username=adam-zs&show_icons=true&bg_color=020805&text_color=b8d4bc&icon_color=00ff88&title_color=00ff88&border_color=122414&hide_border=true&count_private=true&include_all_commits=true" width="420" />
+  <br>
   <img src="https://streak-stats.demolab.com/?user=Adam-ZS&theme=black-ice&background=020805&stroke=122414&ring=00ff88&fire=ffcc44&currStreakNum=b8d4bc&sideNums=3d5e42&currStreakLabel=00ff88&sideLabels=3d5e42&dates=3d5e42&border=122414" width="420" />
-</p>
-
-<p align="center">
-  <img src="https://github-trophies.vercel.app/?username=Adam-ZS&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=4" width="95%" />
 </p>
 
 ### 🧰 arsenal
@@ -80,22 +77,11 @@
 
 ### 💻 terminal
 
-<p align="center">
-  <code>┌──(adam.zs㉿kali)-[~/red-team]</code><br>
-  <code>└─$ whoami</code><br>
-  <code>  &nbsp;&nbsp;→ adam.zs@cybersec</code><br>
-  <code>└─$ pwd</code><br>
-  <code>  &nbsp;&nbsp;→ /home/adam/red-team</code><br>
-  <code>└─$ ls -la</code><br>
-  <code>  &nbsp;&nbsp;→ drwxr-xr-x credforge/</code><br>
-  <code>  &nbsp;&nbsp;→ drwxr-xr-x AccessVault/</code><br>
-  <code>  &nbsp;&nbsp;→ drwxr-xr-x NOCTUA/</code><br>
-  <code>  &nbsp;&nbsp;→ drwxr-xr-x exploits/</code><br>
-  <code>  &nbsp;&nbsp;→ -rw-r--r-- payloads.zip</code><br>
-  <code>└─$ echo $JOKE</code><br>
-  <code>  &nbsp;&nbsp;→ "there are only 10 types of people in this world —</code><br>
-  <code>  &nbsp;&nbsp;   those who understand binary and those who don't"</code><br>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-light.svg">
+  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-dark.svg" width="100%" alt="terminal">
+</picture>
 
 ---
 
