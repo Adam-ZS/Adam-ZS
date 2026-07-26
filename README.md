@@ -13,9 +13,15 @@
   <a href="https://buymeacoffee.com/tf_a0"><code>⟐ support</code></a>
 </p>
 
-```yaml
-name: Adam ZS · role: Cybersecurity Engineer · focus: pentesting, threat intel, hardware sec, AI sec
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Adam%20ZS-122414?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=00ff88" />
+  <img src="https://img.shields.io/badge/Cybersecurity%20Engineer-122414?style=for-the-badge&logo=kalilinux&logoColor=00ff88&labelColor=00ff88" />
+  <br>
+  <img src="https://img.shields.io/badge/pentesting-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
+  <img src="https://img.shields.io/badge/threat%20intel-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
+  <img src="https://img.shields.io/badge/hardware%20sec-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
+  <img src="https://img.shields.io/badge/AI%20security-122414?style=flat-square&logoColor=00ff88&labelColor=00ff88" />
+</p>
 
 **featured projects**
 
@@ -53,8 +59,4 @@ name: Adam ZS · role: Cybersecurity Engineer · focus: pentesting, threat intel
   <img src="https://img.shields.io/github/stars/Adam-ZS?affiliations=OWNER&style=flat&color=00ff88&label=★+stars" />
   <img src="https://img.shields.io/github/followers/Adam-ZS?style=flat&color=00ff88&label=✦+followers" />
   <img src="https://img.shields.io/github/last-commit/Adam-ZS/Adam-ZS?style=flat&color=00ff88&label=⟐+updated" />
-</p>
-
-<p align="center">
-  <sub>streak-stats · shields.io · komarev</sub>
 </p>
