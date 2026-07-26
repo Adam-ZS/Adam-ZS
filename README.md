@@ -66,7 +66,9 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=dark&border=transparent&qcolor=00ff88&acolor=00ff88&bgColor=transparent&textColor=b8d4bc" width="480" />
+  <img src="https://img.shields.io/badge/cyber-joke-00ff88?style=for-the-badge&labelColor=122414" />
+  <br>
+  <sub><code>there are only 10 types of people in this world — those who understand binary and those who don't</code></sub>
 </p>
 
 ---
