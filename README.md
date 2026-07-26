@@ -17,23 +17,21 @@
 name: Adam ZS · role: Cybersecurity Engineer · focus: pentesting, threat intel, hardware sec, AI sec
 ```
 
-### projects
+**featured projects**
 
-| stars | project | description |
-|:-----:|---------|-------------|
-| ★4 ⑂3 | [credforge](https://github.com/Adam-ZS/credforge) | bulk email/password combos generator |
-| ★4 ⑂1 | [AccessVault](https://github.com/Adam-ZS/AccessVault) | Android biometric password manager (AES/CBC) |
-| ★3 ⑂3 | [GoogleForms](https://github.com/Adam-ZS/GoogleForms) | auto-fill & submit Google Forms |
-| ★3 | [MS Forms Fill Bot](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) | Microsoft Forms automation |
-| ★2 | [BEIN Sports Proxy](https://github.com/Adam-ZS/bein-sports-streaming) | 12-channel sports streaming proxy |
-| ★1 | [NOCTUA](https://github.com/Adam-ZS/NOCTUA) | Windows credential intelligence framework |
+**★4 ⑂3** — [credforge](https://github.com/Adam-ZS/credforge) — bulk email/password combos generator
+**★4 ⑂1** — [AccessVault](https://github.com/Adam-ZS/AccessVault) — Android biometric password manager (AES/CBC)
+**★3 ⑂3** — [GoogleForms](https://github.com/Adam-ZS/GoogleForms) — auto-fill & submit Google Forms
+**★3** — [MS Forms Fill Bot](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) — Microsoft Forms automation
+**★2** — [BEIN Sports Proxy](https://github.com/Adam-ZS/bein-sports-streaming) — 12-channel sports streaming proxy
+**★1** — [NOCTUA](https://github.com/Adam-ZS/NOCTUA) — Windows credential intelligence framework
 
-[all 27 repos →](https://github.com/Adam-ZS) · 22 stars
+[all 28 repos →](https://github.com/Adam-ZS) · 22 stars
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adam-ZS&show_icons=true&theme=transparent&title_color=00ff88&icon_color=00ff88&text_color=b8d4bc&border_color=122414&ring_color=00ff88&hide=contribs" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Adam-ZS&show_icons=true&theme=transparent&title_color=00ff88&icon_color=00ff88&text_color=b8d4bc&border_color=122414&ring_color=00ff88&hide_rank=true" height="150" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adam-ZS&theme=transparent&stroke=122414&ring=00ff88&fire=ffcc44&currStreakNum=b8d4bc&sideNums=3d5e42&currStreakLabel=00ff88&sideLabels=3d5e42&dates=3d5e42&border=122414" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adam-ZS&layout=compact&theme=transparent&title_color=00ff88&text_color=b8d4bc&border_color=122414&langs_count=5&card_width=240" height="150" />
 </p>

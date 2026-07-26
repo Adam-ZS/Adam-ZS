@@ -1,15 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f0faf4"/>
       <stop offset="50%" stop-color="#e8f5ef"/>
       <stop offset="100%" stop-color="#f0faf4"/>
     </linearGradient>
-    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#008844"/>
+      <stop offset="100%" stop-color="#00aa55"/>
+    </linearGradient>
+    <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="transparent"/>
-      <stop offset="20%" stop-color="#008844" stop-opacity="0.2"/>
       <stop offset="50%" stop-color="#008844"/>
-      <stop offset="80%" stop-color="#008844" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
     <filter id="soft">
@@ -18,83 +20,58 @@
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)" rx="8"/>
+  <rect width="900" height="240" fill="url(#bg)" rx="10"/>
 
-  <!-- Subtle grid -->
-  <g fill="#008844" opacity="0.04">
-    <circle cx="45" cy="30" r="1"/><circle cx="135" cy="30" r="1"/>
-    <circle cx="225" cy="30" r="1"/><circle cx="315" cy="30" r="1"/>
-    <circle cx="405" cy="30" r="1"/><circle cx="495" cy="30" r="1"/>
-    <circle cx="585" cy="30" r="1"/><circle cx="675" cy="30" r="1"/>
-    <circle cx="765" cy="30" r="1"/><circle cx="855" cy="30" r="1"/>
-    <circle cx="90" cy="65" r="1"/><circle cx="180" cy="65" r="1"/>
-    <circle cx="270" cy="65" r="1"/><circle cx="360" cy="65" r="1"/>
-    <circle cx="450" cy="65" r="1"/><circle cx="540" cy="65" r="1"/>
-    <circle cx="630" cy="65" r="1"/><circle cx="720" cy="65" r="1"/>
-    <circle cx="810" cy="65" r="1"/>
-    <circle cx="45" cy="100" r="1"/><circle cx="135" cy="100" r="1"/>
-    <circle cx="225" cy="100" r="1"/><circle cx="315" cy="100" r="1"/>
-    <circle cx="405" cy="100" r="1"/><circle cx="495" cy="100" r="1"/>
-    <circle cx="585" cy="100" r="1"/><circle cx="675" cy="100" r="1"/>
-    <circle cx="765" cy="100" r="1"/><circle cx="855" cy="100" r="1"/>
-    <circle cx="90" cy="135" r="1"/><circle cx="180" cy="135" r="1"/>
-    <circle cx="270" cy="135" r="1"/><circle cx="360" cy="135" r="1"/>
-    <circle cx="450" cy="135" r="1"/><circle cx="540" cy="135" r="1"/>
-    <circle cx="630" cy="135" r="1"/><circle cx="720" cy="135" r="1"/>
-    <circle cx="810" cy="135" r="1"/>
-    <circle cx="45" cy="170" r="1"/><circle cx="135" cy="170" r="1"/>
-    <circle cx="225" cy="170" r="1"/><circle cx="315" cy="170" r="1"/>
-    <circle cx="405" cy="170" r="1"/><circle cx="495" cy="170" r="1"/>
-    <circle cx="585" cy="170" r="1"/><circle cx="675" cy="170" r="1"/>
-    <circle cx="765" cy="170" r="1"/><circle cx="855" cy="170" r="1"/>
+  <!-- Cyber grid pattern -->
+  <g stroke="#008844" stroke-width="0.3" opacity="0.04">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="150" y1="0" x2="150" y2="240"/>
+    <line x1="300" y1="0" x2="300" y2="240"/>
+    <line x1="450" y1="0" x2="450" y2="240"/>
+    <line x1="600" y1="0" x2="600" y2="240"/>
+    <line x1="750" y1="0" x2="750" y2="240"/>
   </g>
 
-  <!-- Outer terminal box -->
-  <rect x="20" y="15" width="860" height="170" rx="6" fill="none" stroke="#008844" stroke-width="0.5" opacity="0.3"/>
-
-  <!-- Title bar dots -->
-  <circle cx="36" cy="27" r="4" fill="#ff5f56" opacity="0.4"/>
-  <circle cx="52" cy="27" r="4" fill="#ffbd2e" opacity="0.4"/>
-  <circle cx="68" cy="27" r="4" fill="#27c93f" opacity="0.4"/>
-
-  <!-- Tab bar -->
-  <rect x="80" y="18" width="160" height="18" rx="3" fill="#008844" opacity="0.04"/>
-  <text x="120" y="31" font-family="'Courier New','Consolas',monospace" font-size="9" fill="#008844" text-anchor="middle" font-weight="bold" opacity="0.6">profile@adam-zs: ~</text>
+  <!-- Decorative hex-like shapes -->
+  <polygon points="80,40 95,30 110,40 110,60 95,70 80,60" fill="none" stroke="#008844" stroke-width="0.5" opacity="0.06"/>
+  <polygon points="790,170 805,160 820,170 820,190 805,200 790,190" fill="none" stroke="#008844" stroke-width="0.5" opacity="0.06"/>
 
   <!-- Main name -->
-  <text x="450" y="80" font-family="'Courier New','Consolas',monospace" font-size="28" fill="#008844" text-anchor="middle" font-weight="bold" filter="url(#soft)">
+  <text x="450" y="95" font-family="'Courier New','Consolas',monospace" font-size="36" fill="url(#accent)" text-anchor="middle" font-weight="bold" filter="url(#soft)" letter-spacing="4">
     ADAM ZS
   </text>
 
-  <!-- Role -->
-  <text x="450" y="108" font-family="'Courier New','Consolas',monospace" font-size="12" fill="#3d5e42" text-anchor="middle" letter-spacing="2">
-    CYBERSECURITY  ENGINEER
+  <!-- Role line -->
+  <text x="450" y="125" font-family="'Courier New','Consolas',monospace" font-size="13" fill="#3d5e42" text-anchor="middle" letter-spacing="3" opacity="0.8">
+    CYBERSECURITY ENGINEER
   </text>
 
   <!-- Divider -->
-  <line x1="280" y1="122" x2="620" y2="122" stroke="url(#line)" stroke-width="1"/>
+  <line x1="300" y1="142" x2="600" y2="142" stroke="url(#lineGlow)" stroke-width="1" opacity="0.4"/>
 
   <!-- Focus tags -->
-  <rect x="260" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
-  <text x="300" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">pen testing</text>
+  <circle cx="260" cy="167" r="3" fill="#008844" opacity="0.4"/>
+  <text x="270" y="171" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.6">pen testing</text>
 
-  <rect x="350" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
-  <text x="390" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">threat intel</text>
+  <circle cx="390" cy="167" r="3" fill="#008844" opacity="0.4"/>
+  <text x="400" y="171" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.6">threat intel</text>
 
-  <rect x="440" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
-  <text x="480" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">hardware sec</text>
+  <circle cx="520" cy="167" r="3" fill="#008844" opacity="0.4"/>
+  <text x="530" y="171" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.6">hardware sec</text>
 
-  <rect x="530" y="134" width="80" height="18" rx="3" fill="#008844" opacity="0.04"/>
-  <text x="570" y="147" font-family="'Courier New','Consolas',monospace" font-size="8" fill="#008844" text-anchor="middle" opacity="0.6">AI security</text>
+  <circle cx="650" cy="167" r="3" fill="#008844" opacity="0.4"/>
+  <text x="660" y="171" font-family="'Courier New','Consolas',monospace" font-size="11" fill="#008844" opacity="0.6">AI security</text>
 
-  <!-- Terminal prompt -->
-  <text x="45" y="176" font-family="'Courier New','Consolas',monospace" font-size="9" fill="#3d5e42" opacity="0.7">
-    <tspan fill="#008844">adam-zs@github</tspan>:<tspan fill="#3d5e42">~</tspan>$ <tspan fill="#3d5e42">cat</tspan> <tspan fill="#3d5e42" opacity="0.5">profile/README.md</tspan>
+  <!-- Bottom terminal bar -->
+  <rect x="20" y="215" width="860" height="1" fill="#008844" opacity="0.15"/>
+  <text x="30" y="228" font-family="'Courier New','Consolas',monospace" font-size="9" fill="#3d5e42" opacity="0.6">
+    <tspan fill="#008844" filter="url(#soft)">adam-zs@github</tspan>:<tspan fill="#3d5e42">~</tspan>$ <tspan fill="#3d5e42">cat</tspan> <tspan fill="#3d5e42" opacity="0.4">profile</tspan>
   </text>
 
-  <!-- Blinking cursor -->
-  <rect x="215" y="167" width="6" height="10" fill="#008844" opacity="0.4">
+  <!-- Cursor -->
+  <rect x="145" y="219" width="6" height="11" fill="#008844" opacity="0.4">
     <animate attributeName="opacity" values="0.4;0;0.4" dur="1s" repeatCount="indefinite"/>
   </rect>
 </svg>
