@@ -20,19 +20,6 @@
 
 > red teamer · exploit developer · hardware security researcher · building tools that break things
 
-### 📦 featured projects
-
-| project | stars | description |
-|---------|-------|-------------|
-| [![credforge](https://img.shields.io/badge/credforge-00ff88?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/credforge) | ★4 ⑂3 | bulk email/password combos generator |
-| [![AccessVault](https://img.shields.io/badge/AccessVault-4488ff?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/AccessVault) | ★4 ⑂1 | Android biometric password manager (AES/CBC) |
-| [![GoogleForms](https://img.shields.io/badge/GoogleForms-ffcc00?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/GoogleForms) | ★3 ⑂3 | auto-fill & submit Google Forms |
-| [![MS Forms Bot](https://img.shields.io/badge/MS%20Forms%20Bot-ff6600?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/Microsoft-Forms-Fill-Bot) | ★3 | Microsoft Forms automation |
-| [![BEIN Proxy](https://img.shields.io/badge/BEIN%20Proxy-cc44ff?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/bein-sports-streaming) | ★2 | 12-channel sports streaming proxy |
-| [![NOCTUA](https://img.shields.io/badge/NOCTUA-4444cc?style=flat&labelColor=122414&logo=github)](https://github.com/Adam-ZS/NOCTUA) | ★1 | Windows credential intelligence framework |
-
-<p align="right"><sub><a href="https://github.com/Adam-ZS"><code>all 28 repos → · 22 stars</code></a></sub></p>
-
 ---
 
 ### 📈 stats
