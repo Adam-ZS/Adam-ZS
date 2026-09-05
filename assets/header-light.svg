@@ -1,37 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
-<title id="title">Adam ZS — security research and engineering</title><desc id="desc">A green and amber circuit-inspired personal banner with an AZ monogram. Software, systems, and hardware.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title">
+<title id="title">Adam ZS · security / code / hardware</title>
 <defs>
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c8d6ca" stroke-width=".6"/></pattern>
-<radialGradient id="halo"><stop stop-color="#137a4b" stop-opacity=".12"/><stop offset="1" stop-color="#f4f8f3" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo"><stop stop-color="#137a4b" stop-opacity=".18"/><stop offset="1" stop-color="#f4f8f3" stop-opacity="0"/></radialGradient>
+<linearGradient id="trace"><stop stop-color="#137a4b" stop-opacity="0"/><stop offset=".5" stop-color="#137a4b"/><stop offset="1" stop-color="#896215" stop-opacity=".2"/></linearGradient>
 </defs>
 <style>
-text { font-family: ui-monospace, 'Liberation Mono', Consolas, monospace; }
-.label { fill:#526c5d; font-size:12px; letter-spacing:2px; }
-.orbit { transform-origin:800px 174px; animation:rotate 40s linear infinite; }
-.signal { animation:signal 5s ease-in-out infinite; }
+text { font-family:ui-monospace,'Liberation Mono',Consolas,monospace; fill:#152b23; }
+.label { fill:#526c5d; font-size:14px; letter-spacing:2px; }
+.orbit { transform-origin:790px 180px; animation:rotate 48s linear infinite; }
+.reverse { animation-direction:reverse; animation-duration:65s; }
+.signal { animation:pulse 5s ease-in-out infinite; }
+.flow { stroke-dasharray:8 28; animation:flow 14s linear infinite; }
 .cursor { animation:blink 1.4s step-end infinite; }
 @keyframes rotate { to { transform:rotate(360deg); } }
-@keyframes signal { 50% { opacity:.35; } }
+@keyframes pulse { 50% { opacity:.35; } }
+@keyframes flow { to { stroke-dashoffset:-360; } }
 @keyframes blink { 50% { opacity:0; } }
-@media (prefers-reduced-motion: reduce) { .orbit,.signal,.cursor { animation:none; } }
+@media(prefers-reduced-motion:reduce) { .orbit,.signal,.flow,.cursor { animation:none; } }
 </style>
 <rect x="1" y="1" width="998" height="358" rx="18" fill="#f4f8f3" stroke="#c8d6ca"/>
 
-<rect x="18" y="18" width="964" height="324" rx="10" fill="url(#grid)" opacity=".6"/>
-<circle cx="800" cy="174" r="168" fill="url(#halo)"/>
-<path d="M40 70V40H70 M930 40H960V70 M40 290V320H70 M930 320H960V290" fill="none" stroke="#137a4b" stroke-width="2"/>
-<text x="64" y="72" class="label">ADAM-ZS / PERSONAL LAB</text>
-<circle cx="627" cy="67" r="4" fill="#896215" class="signal"/>
-<text x="60" y="166" fill="#152b23" font-size="82" font-weight="700" letter-spacing="-5">ADAM ZS<tspan fill="#137a4b">.</tspan></text>
-<text x="64" y="212" fill="#137a4b" font-size="23">Security research. Thoughtful engineering.</text>
-<text x="64" y="250" fill="#526c5d" font-size="17">Understand the system. Build something better.</text>
-<path d="M64 277H618" stroke="#c8d6ca"/>
-<text x="64" y="304" class="label">01 / SOFTWARE</text><text x="254" y="304" class="label">02 / SYSTEMS</text><text x="439" y="304" class="label">03 / HARDWARE</text>
-<circle cx="800" cy="174" r="108" stroke="#c8d6ca" fill="none"/>
-<circle cx="800" cy="174" r="91" stroke="#137a4b" stroke-width="1.5" stroke-dasharray="3 12" fill="none" class="orbit"/>
-<path d="M800 103L862 138V210L800 245L738 210V138Z" fill="#e6eee5" stroke="#137a4b" stroke-width="1.5"/>
-<path d="M763 200L783 150L803 200M771 184H795M815 151H840L813 198H840" fill="none" stroke="#152b23" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
-<path d="M691 174H661M908 174H938M800 65V45M800 283V303" stroke="#137a4b"/>
-<circle cx="692" cy="174" r="4" fill="#896215"/><circle cx="908" cy="174" r="4" fill="#137a4b" class="signal"/>
-<text x="800" y="326" text-anchor="middle" class="label">RESEARCH / BUILD / REFINE</text>
+<rect x="18" y="18" width="964" height="324" rx="10" fill="url(#grid)"/>
+<circle cx="790" cy="180" r="172" fill="url(#halo)"/>
+<path d="M40 74V40H74 M926 40H960V74 M40 286V320H74 M926 320H960V286" fill="none" stroke="#137a4b" stroke-width="2"/>
+<text x="64" y="77" class="label">/ HOME / ADAM-ZS</text>
+<text x="58" y="188" font-size="102" font-weight="700" letter-spacing="-7">ADAM ZS<tspan style="fill:#137a4b">.</tspan></text>
+<text x="64" y="240" style="fill:#137a4b" font-size="22" letter-spacing="3">SECURITY / CODE / HARDWARE</text>
+<path d="M64 274H584" stroke="#c8d6ca"/>
+<path d="M64 274H584" stroke="url(#trace)" class="flow" stroke-width="2"/>
+<text x="64" y="308" class="label">PERSONAL LAB</text>
+<circle cx="555" cy="302" r="4" fill="#896215" class="signal"/>
+<circle cx="790" cy="180" r="122" stroke="#c8d6ca" fill="none"/>
+<g class="orbit"><circle cx="790" cy="180" r="104" stroke="#137a4b" stroke-dasharray="2 13" fill="none"/><circle cx="894" cy="180" r="5" fill="#896215"/></g>
+<circle cx="790" cy="180" r="137" stroke="#526c5d" stroke-dasharray="64 180 12 100" fill="none" class="orbit reverse"/>
+<path d="M790 109L852 144V216L790 251L728 216V144Z" fill="#e6eee5" stroke="#137a4b" stroke-width="1.5"/>
+<path d="M753 206L773 156L793 206M761 190H785M805 157H830L803 204H830" fill="none" stroke="#152b23" stroke-width="5"/>
+<path d="M637 180H660M920 180H943M790 26V48M790 313V334" stroke="#137a4b"/>
+
 </svg>

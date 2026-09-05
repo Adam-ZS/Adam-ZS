@@ -1,29 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="216" viewBox="0 0 1000 216" role="img" aria-labelledby="title desc">
-<title id="title">Explore. Build. Refine.</title><desc id="desc">Ask better questions, turn ideas into tools, and test, document, and repeat. Decorative workflow, not live statistics.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="242" viewBox="0 0 1000 242" role="img" aria-labelledby="title">
+<title id="title">Toolbox · Python, C++, JavaScript, React, Linux, Docker, Git, Arduino</title>
 <defs>
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#263f39" stroke-width=".6"/></pattern>
-<radialGradient id="halo"><stop stop-color="#59efa5" stop-opacity=".12"/><stop offset="1" stop-color="#080f10" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo"><stop stop-color="#59efa5" stop-opacity=".18"/><stop offset="1" stop-color="#080f10" stop-opacity="0"/></radialGradient>
+<linearGradient id="trace"><stop stop-color="#59efa5" stop-opacity="0"/><stop offset=".5" stop-color="#59efa5"/><stop offset="1" stop-color="#edc775" stop-opacity=".2"/></linearGradient>
 </defs>
 <style>
-text { font-family: ui-monospace, 'Liberation Mono', Consolas, monospace; }
-.label { fill:#9bb9ac; font-size:12px; letter-spacing:2px; }
-.orbit { transform-origin:800px 174px; animation:rotate 40s linear infinite; }
-.signal { animation:signal 5s ease-in-out infinite; }
+text { font-family:ui-monospace,'Liberation Mono',Consolas,monospace; fill:#eff8f2; }
+.label { fill:#9bb9ac; font-size:14px; letter-spacing:2px; }
+.orbit { transform-origin:790px 180px; animation:rotate 48s linear infinite; }
+.reverse { animation-direction:reverse; animation-duration:65s; }
+.signal { animation:pulse 5s ease-in-out infinite; }
+.flow { stroke-dasharray:8 28; animation:flow 14s linear infinite; }
 .cursor { animation:blink 1.4s step-end infinite; }
 @keyframes rotate { to { transform:rotate(360deg); } }
-@keyframes signal { 50% { opacity:.35; } }
+@keyframes pulse { 50% { opacity:.35; } }
+@keyframes flow { to { stroke-dashoffset:-360; } }
 @keyframes blink { 50% { opacity:0; } }
-@media (prefers-reduced-motion: reduce) { .orbit,.signal,.cursor { animation:none; } }
+@media(prefers-reduced-motion:reduce) { .orbit,.signal,.flow,.cursor { animation:none; } }
 </style>
-<rect x="1" y="1" width="998" height="214" rx="18" fill="#080f10" stroke="#263f39"/>
+<rect x="1" y="1" width="998" height="240" rx="18" fill="#080f10" stroke="#263f39"/>
 
-<text x="32" y="40" class="label">HOW I LIKE TO WORK</text>
-<path d="M80 98H920" fill="none" stroke="#263f39" stroke-width="2"/>
-<path d="M80 98H920" fill="none" stroke="#59efa5" stroke-dasharray="8 18" opacity=".55"/>
-<g font-size="23" fill="#eff8f2">
-<circle cx="80" cy="98" r="9" fill="#59efa5"/><text x="80" y="149">Explore</text>
-<circle cx="360" cy="98" r="9" fill="#edc775"/><text x="360" y="149">Build</text>
-<circle cx="680" cy="98" r="9" fill="#59efa5" class="signal"/><text x="680" y="149">Refine</text>
-</g>
-<g font-size="15" fill="#9bb9ac"><text x="80" y="181">Ask better questions.</text><text x="360" y="181">Turn ideas into tools.</text><text x="680" y="181">Test. Document. Repeat.</text></g>
+<text x="32" y="39" class="label">01 / TOOLBOX</text>
+<path d="M62 117H100M62 155H100M214 117H252M214 155H270V100H290M130 68V92M168 68V92M130 180V214M168 180V214" fill="none" stroke="#263f39" stroke-width="2"/>
+<path d="M214 155H270V100H290" fill="none" stroke="#59efa5" class="flow" stroke-width="2"/>
+<rect x="100" y="92" width="114" height="88" rx="14" fill="#101c1b" stroke="#59efa5"/>
+<path d="M141 118L124 136L141 154M173 118L190 136L173 154M163 112L151 160" fill="none" stroke="#eff8f2" stroke-width="3"/>
+<rect x="290" y="76" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="307" cy="101" r="3" fill="#59efa5"/><text x="375" y="107" text-anchor="middle" font-size="16">PYTHON</text><rect x="456" y="76" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="473" cy="101" r="3" fill="#59efa5"/><text x="541" y="107" text-anchor="middle" font-size="16">C++</text><rect x="622" y="76" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="639" cy="101" r="3" fill="#59efa5"/><text x="707" y="107" text-anchor="middle" font-size="16">JAVASCRIPT</text><rect x="788" y="76" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="805" cy="101" r="3" fill="#59efa5"/><text x="873" y="107" text-anchor="middle" font-size="16">REACT</text><rect x="290" y="146" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="307" cy="171" r="3" fill="#edc775"/><text x="375" y="177" text-anchor="middle" font-size="16">LINUX</text><rect x="456" y="146" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="473" cy="171" r="3" fill="#edc775"/><text x="541" y="177" text-anchor="middle" font-size="16">DOCKER</text><rect x="622" y="146" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="639" cy="171" r="3" fill="#edc775"/><text x="707" y="177" text-anchor="middle" font-size="16">GIT</text><rect x="788" y="146" width="150" height="50" rx="8" fill="#101c1b" stroke="#263f39"/><circle cx="805" cy="171" r="3" fill="#edc775"/><text x="873" y="177" text-anchor="middle" font-size="16">ARDUINO</text>
+
 </svg>
