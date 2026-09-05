@@ -1,92 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340">
-  <defs>
-    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#010409"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+<title id="title">Inside Adam's workspace</title><desc id="desc">Security research, developer tools, and hardware curiosity. Current project: HoneySentinel. Stay curious. Keep building.</desc>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#263f39" stroke-width=".6"/></pattern>
+<radialGradient id="halo"><stop stop-color="#59efa5" stop-opacity=".12"/><stop offset="1" stop-color="#080f10" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+text { font-family: ui-monospace, 'Liberation Mono', Consolas, monospace; }
+.label { fill:#9bb9ac; font-size:12px; letter-spacing:2px; }
+.orbit { transform-origin:800px 174px; animation:rotate 40s linear infinite; }
+.signal { animation:signal 5s ease-in-out infinite; }
+.cursor { animation:blink 1.4s step-end infinite; }
+@keyframes rotate { to { transform:rotate(360deg); } }
+@keyframes signal { 50% { opacity:.35; } }
+@keyframes blink { 50% { opacity:0; } }
+@media (prefers-reduced-motion: reduce) { .orbit,.signal,.cursor { animation:none; } }
+</style>
+<rect x="1" y="1" width="998" height="388" rx="18" fill="#080f10" stroke="#263f39"/>
 
-  <!-- Terminal window frame -->
-  <rect x="0" y="0" width="720" height="340" rx="8" fill="url(#termBg)" stroke="#122414" stroke-width="1.5"/>
-  
-  <!-- Yellow glow bar top -->
-  <rect x="0" y="0" width="720" height="2" rx="1" fill="#ffcc44" opacity="0.6">
-    <animate attributeName="opacity" values="0.6;0.3;0.6" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- Yellow accent dot -->
-  <circle cx="680" cy="16" r="3" fill="#ffcc44" opacity="0.5">
-    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Title bar -->
-  <rect x="0" y="0" width="720" height="32" rx="8" fill="#161b22"/>
-  <rect x="0" y="24" width="720" height="8" fill="#161b22"/>
-  
-  <!-- Window buttons -->
-  <circle cx="20" cy="16" r="5" fill="#ff5f57"/>
-  <circle cx="40" cy="16" r="5" fill="#ffbd2e"/>
-  <circle cx="60" cy="16" r="5" fill="#28c840"/>
-  
-  <!-- Title text -->
-  <text x="360" y="21" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="12" fill="#8b949e" text-anchor="middle">adam.zs@kali: ~/red-team</text>
-
-  <!-- Terminal content -->
-  <g font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13">
-    
-    <!-- Prompt 1: whoami -->
-    <text x="16" y="60" fill="#00ff88" filter="url(#glow)">┌──(</text>
-    <text x="56" y="60" fill="#ffcc44">adam.zs</text>
-    <text x="126" y="60" fill="#00ff88">㉿</text>
-    <text x="146" y="60" fill="#ffcc44">kali</text>
-    <text x="175" y="60" fill="#00ff88">)-[</text>
-    <text x="198" y="60" fill="#4488ff">~/red-team</text>
-    <text x="280" y="60" fill="#00ff88">]</text>
-    
-    <text x="16" y="80" fill="#00ff88">└─$</text>
-    <text x="52" y="80" fill="#b8d4bc">whoami</text>
-    <text x="72" y="100" fill="#b8d4bc">→ adam.zs@cybersec</text>
-
-    <!-- Prompt 2: pwd -->
-    <text x="16" y="128" fill="#00ff88">┌──(</text>
-    <text x="56" y="128" fill="#ffcc44">adam.zs</text>
-    <text x="126" y="128" fill="#00ff88">㉿</text>
-    <text x="146" y="128" fill="#ffcc44">kali</text>
-    <text x="175" y="128" fill="#00ff88">)-[</text>
-    <text x="198" y="128" fill="#4488ff">~/red-team</text>
-    <text x="280" y="128" fill="#00ff88">]</text>
-    
-    <text x="16" y="148" fill="#00ff88">└─$</text>
-    <text x="52" y="148" fill="#b8d4bc">pwd</text>
-    <text x="72" y="168" fill="#b8d4bc">→ /home/adam/red-team</text>
-
-    <!-- Prompt 3: echo $JOKE -->
-    <text x="16" y="196" fill="#00ff88">┌──(</text>
-    <text x="56" y="196" fill="#ffcc44">adam.zs</text>
-    <text x="126" y="196" fill="#00ff88">㉿</text>
-    <text x="146" y="196" fill="#ffcc44">kali</text>
-    <text x="175" y="196" fill="#00ff88">)-[</text>
-    <text x="198" y="196" fill="#4488ff">~/red-team</text>
-    <text x="280" y="196" fill="#00ff88">]</text>
-    
-    <text x="16" y="216" fill="#00ff88">└─$</text>
-    <text x="52" y="216" fill="#b8d4bc">echo $JOKE</text>
-    
-    <!-- Joke output - multi line, yellow -->
-    <text x="72" y="238" fill="#ffcc44">→</text>
-    <text x="88" y="238" fill="#ffcc44">"there are only 10 types of people in this world —</text>
-    <text x="88" y="258" fill="#ffcc44">those who understand binary and those who don't"</text>
-    
-    <!-- Blinking cursor -->
-    <rect x="280" y="296" width="8" height="14" fill="#00ff88" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="1.5s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+<path d="M18 1H982Q999 1 999 18V47H1V18Q1 1 18 1" fill="#101c1b"/>
+<circle cx="28" cy="24" r="5" fill="#edc775"/><circle cx="48" cy="24" r="5" fill="#9bb9ac"/><circle cx="68" cy="24" r="5" fill="#59efa5"/>
+<text x="500" y="29" text-anchor="middle" class="label">adam@lab: ~/workspace</text>
+<g font-size="19">
+<text x="32" y="88" fill="#59efa5">adam@lab<tspan fill="#9bb9ac">:~$ </tspan><tspan fill="#eff8f2">cat focus.txt</tspan></text>
+<text x="32" y="123" fill="#9bb9ac">Security research / developer tools / hardware curiosity</text>
+<text x="32" y="177" fill="#59efa5">adam@lab<tspan fill="#9bb9ac">:~$ </tspan><tspan fill="#eff8f2">ls projects/</tspan></text>
+<text x="32" y="212" fill="#edc775">honeysentinel/</text><text x="276" y="212" fill="#9bb9ac">capture - investigate - share</text>
+<text x="32" y="266" fill="#59efa5">adam@lab<tspan fill="#9bb9ac">:~$ </tspan><tspan fill="#eff8f2">printf 'Stay curious. Keep building.'</tspan></text>
+<text x="32" y="301" fill="#eff8f2">Stay curious. Keep building.</text>
+<text x="32" y="356" fill="#59efa5">adam@lab<tspan fill="#9bb9ac">:~$</tspan></text>
+<rect x="188" y="339" width="11" height="21" fill="#59efa5" class="cursor"/>
+</g>
+<text x="966" y="357" text-anchor="end" class="label">A PERSONAL WORKSPACE, ALWAYS EVOLVING</text>
 </svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="216" viewBox="0 0 1000 216" role="img" aria-labelledby="title desc">
+<title id="title">Explore. Build. Refine.</title><desc id="desc">Ask better questions, turn ideas into tools, and test, document, and repeat. Decorative workflow, not live statistics.</desc>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#263f39" stroke-width=".6"/></pattern>
+<radialGradient id="halo"><stop stop-color="#59efa5" stop-opacity=".12"/><stop offset="1" stop-color="#080f10" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+text { font-family: ui-monospace, 'Liberation Mono', Consolas, monospace; }
+.label { fill:#9bb9ac; font-size:12px; letter-spacing:2px; }
+.orbit { transform-origin:800px 174px; animation:rotate 40s linear infinite; }
+.signal { animation:signal 5s ease-in-out infinite; }
+.cursor { animation:blink 1.4s step-end infinite; }
+@keyframes rotate { to { transform:rotate(360deg); } }
+@keyframes signal { 50% { opacity:.35; } }
+@keyframes blink { 50% { opacity:0; } }
+@media (prefers-reduced-motion: reduce) { .orbit,.signal,.cursor { animation:none; } }
+</style>
+<rect x="1" y="1" width="998" height="214" rx="18" fill="#080f10" stroke="#263f39"/>
+
+<text x="32" y="40" class="label">HOW I LIKE TO WORK</text>
+<path d="M80 98H920" fill="none" stroke="#263f39" stroke-width="2"/>
+<path d="M80 98H920" fill="none" stroke="#59efa5" stroke-dasharray="8 18" opacity=".55"/>
+<g font-size="23" fill="#eff8f2">
+<circle cx="80" cy="98" r="9" fill="#59efa5"/><text x="80" y="149">Explore</text>
+<circle cx="360" cy="98" r="9" fill="#edc775"/><text x="360" y="149">Build</text>
+<circle cx="680" cy="98" r="9" fill="#59efa5" class="signal"/><text x="680" y="149">Refine</text>
+</g>
+<g font-size="15" fill="#9bb9ac"><text x="80" y="181">Ask better questions.</text><text x="360" y="181">Turn ideas into tools.</text><text x="680" y="181">Test. Document. Repeat.</text></g>
+</svg>

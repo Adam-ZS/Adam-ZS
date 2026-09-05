@@ -1,86 +1,89 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-light.svg">
-    <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-dark.svg" width="100%" alt="Adam ZS">
-  </picture>
-</p>
-
-<p align="center">
-  <a href="https://adam-zs-portfolio.vercel.app/"><img src="https://img.shields.io/badge/⟐%20portfolio-1a3022?style=flat-square&logo=vercel&logoColor=00ff88&labelColor=020805&color=1a3022" /></a>
-  <a href="https://github.com/Adam-ZS?tab=repositories"><img src="https://img.shields.io/badge/⟐%20repos-1a3022?style=flat-square&logo=github&logoColor=00ff88&labelColor=020805&color=1a3022" /></a>
-  <a href="https://linkedin.com/in/adam-soman"><img src="https://img.shields.io/badge/⟐%20linkedin-1a3022?style=flat-square&logo=linkedin&logoColor=00ff88&labelColor=020805&color=1a3022" /></a>
-  <a href="https://buymeacoffee.com/tf_a0"><img src="https://img.shields.io/badge/⟐%20support-1a3022?style=flat-square&logo=buymeacoffee&logoColor=00ff88&labelColor=020805&color=1a3022" /></a>
-</p>
-
----
-
-### 🔐 about
-
-> red teamer · exploit developer · hardware security researcher · building tools that break things
-
-<p align="center">
-  <img src="https://img.shields.io/badge/⚠%20stealth%20mode-ffcc44?style=flat&labelColor=122414&color=ffcc44" />
-  <img src="https://img.shields.io/badge/⚡%20active%20dev-ffcc44?style=flat&labelColor=122414&color=ffcc44" />
-</p>
-
----
-
-### 📈 stats
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adam-ZS&theme=chartreuse-dark&area=true&hide_border=true&custom_title=⟐+contributions&radius=8&point=00ff88&line=00ff88&area_color=00ff88" width="95%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=Adam-ZS&show_icons=true&bg_color=020805&text_color=b8d4bc&icon_color=00ff88&title_color=00ff88&border_color=1a3022&hide_border=true&count_private=true&include_all_commits=true" width="420" />
-  <br>
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs?username=adam-zs&layout=compact&bg_color=020805&text_color=b8d4bc&title_color=00ff88&border_color=1a3022&hide_border=true" width="420" />
-  <br>
-  <img src="https://streak-stats.demolab.com/?user=Adam-ZS&theme=black-ice&background=020805&stroke=1a3022&ring=00ff88&fire=ffcc44&currStreakNum=b8d4bc&sideNums=3d5e42&currStreakLabel=00ff88&sideLabels=3d5e42&dates=3d5e42&border=1a3022" width="420" />
-</p>
-
-### 🧰 arsenal
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=020805" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=ffffff" />
-  <br>
-  <img src="https://img.shields.io/badge/Kali-557C94?style=for-the-badge&logo=kalilinux&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=020805" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/nmap-004B87?style=for-the-badge&logo=nmap&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Metasploit-2B5CDE?style=for-the-badge&logo=metasploit&logoColor=ffffff" />
-  <br>
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=020805" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=ffffff" />
-</p>
-
-### 💻 terminal
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-light.svg">
-  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-dark.svg" width="100%" alt="terminal">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-light.svg">
+  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-dark.svg" width="100%" alt="Adam ZS — security research and thoughtful engineering. Software, systems, and hardware.">
 </picture>
 
+<p align="center">
+  <a href="https://adam-zs-portfolio.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Adam-ZS?tab=repositories">Projects</a> &nbsp; / &nbsp;
+  <a href="https://linkedin.com/in/adam-soman">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="https://buymeacoffee.com/tf_a0">Buy me a coffee</a>
+</p>
+
+## Hey, I'm Adam.
+
+I'm interested in the space where **security research, software engineering, and hardware** meet.
+I like understanding how systems behave, turning that understanding into useful tools,
+and making the next version a little more considered than the last.
+
+My interests include red teaming, exploit development, threat intelligence, and hardware security.
+This profile is a window into what I'm building and learning along the way.
+
+## On the workbench
+
+### HoneySentinel AI · Capstone
+
+An AI-assisted honeypot platform for capturing interactions, investigating session evidence,
+and sharing findings. Built collaboratively with my capstone team.
+
+My development fork adds a shareable investigation workspace, protocol and time filters,
+matching-record exports, mobile improvements, and regression tests.
+
+**[Explore my fork →](https://github.com/Adam-ZS/honeypot-ui)** ·
+[Review the proposed contribution](https://github.com/mandoof1/honeypot-ui/pull/2) ·
+[Meet the original project](https://github.com/mandoof1/honeypot-ui)
+
+### Beyond the repository
+
+My [portfolio](https://adam-zs-portfolio.vercel.app/) collects more of my work.
+For the latest code, browse my [public repositories](https://github.com/Adam-ZS?tab=repositories).
+
+## Tools I reach for
+
+| Area | Tools and languages |
+|---|---|
+| Programming | Python · C++ · Java · Bash |
+| Web development | JavaScript · TypeScript · React · Node.js · HTML |
+| Systems and tooling | Linux · Kali · Docker · Git · SQLite |
+| Security research | Wireshark · Nmap · Metasploit |
+| Hardware exploration | Arduino · Raspberry Pi |
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/signals-light.svg">
+  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/signals-dark.svg" width="100%" alt="Explore: ask better questions. Build: turn ideas into tools. Refine: test, document, repeat.">
+</picture>
+
+## Inside the workspace
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-light.svg">
+  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/terminal-dark.svg" width="100%" alt="Adam's terminal: security research, developer tools, hardware curiosity, and the HoneySentinel project. Stay curious. Keep building.">
+</picture>
+
+## Around GitHub
+
+<details>
+<summary>Activity and language cards</summary>
+<br>
+
+<a href="https://github.com/Adam-ZS?tab=repositories">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=Adam-ZS&amp;show_icons=true&amp;bg_color=080f10&amp;text_color=eff8f2&amp;icon_color=59efa5&amp;title_color=59efa5&amp;hide_border=true&amp;include_all_commits=true" width="420" alt="Adam's GitHub activity statistics, supplied by an external service">
+</a>
+<br>
+<a href="https://github.com/Adam-ZS?tab=repositories">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs?username=Adam-ZS&amp;layout=compact&amp;bg_color=080f10&amp;text_color=eff8f2&amp;title_color=59efa5&amp;hide_border=true" width="420" alt="Languages in Adam's public repositories, supplied by an external service">
+</a>
+
+Language percentages describe repository composition, not proficiency. These optional
+cards depend on an external service; the artwork above is stored in this repository.
+
+</details>
+
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Adam-ZS&style=flat&color=00ff88&label=⟐+visitors" />
-  <img src="https://img.shields.io/github/stars/Adam-ZS?style=flat&color=ffcc00&label=★+stars" />
-  <img src="https://img.shields.io/github/followers/Adam-ZS?style=flat&color=00ccff&label=✦+followers" />
-  <img src="https://img.shields.io/github/last-commit/Adam-ZS/Adam-ZS?style=flat&color=ff44ff&label=⟐+updated" />
-</p>
+<p align="center"><strong>Stay curious. Keep building.</strong><br>
+<a href="https://linkedin.com/in/adam-soman">Let's connect</a> ·
+<a href="https://adam-zs-portfolio.vercel.app/">See what I'm working on</a></p>
+
+<!-- Artwork: scripts/build_artwork.py regenerates both themes. All text has static
+     fallback rendering; animations respect prefers-reduced-motion. -->
