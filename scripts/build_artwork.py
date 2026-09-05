@@ -41,13 +41,13 @@ text {{ font-family:ui-monospace,'Liberation Mono',Consolas,monospace; fill:{tex
 
 for theme, colors in THEMES.items():
     bg, panel, line, text, muted, green, amber = colors
-    save("header", "Adam ZS · security / code / hardware", 360, f'''
+    save("header", "Adam ZS · Cybersecurity Engineer", 360, f'''
 <rect x="18" y="18" width="964" height="324" rx="10" fill="url(#grid)"/>
 <circle cx="790" cy="180" r="172" fill="url(#halo)"/>
 <path d="M40 74V40H74 M926 40H960V74 M40 286V320H74 M926 320H960V286" fill="none" stroke="{green}" stroke-width="2"/>
 <text x="64" y="77" class="label">/ HOME / ADAM-ZS</text>
 <text x="58" y="188" font-size="102" font-weight="700" letter-spacing="-7">ADAM ZS<tspan style="fill:{green}">.</tspan></text>
-<text x="64" y="240" style="fill:{green}" font-size="22" letter-spacing="3">SECURITY / CODE / HARDWARE</text>
+<text x="64" y="240" style="fill:{green}" font-size="22" letter-spacing="3">CYBERSECURITY ENGINEER</text>
 <path d="M64 274H584" stroke="{line}"/>
 <path d="M64 274H584" stroke="url(#trace)" class="flow" stroke-width="2"/>
 <text x="64" y="308" class="label">PERSONAL LAB</text>

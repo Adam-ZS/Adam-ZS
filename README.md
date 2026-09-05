@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-light.svg">
-  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-dark.svg" width="100%" alt="Adam ZS · security / code / hardware">
+  <img src="https://raw.githubusercontent.com/Adam-ZS/Adam-ZS/main/assets/header-dark.svg" width="100%" alt="Adam ZS · Cybersecurity Engineer">
 </picture>
 
 <p align="center">

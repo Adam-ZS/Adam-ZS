@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title">
-<title id="title">Adam ZS · security / code / hardware</title>
+<title id="title">Adam ZS · Cybersecurity Engineer</title>
 <defs>
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c8d6ca" stroke-width=".6"/></pattern>
 <radialGradient id="halo"><stop stop-color="#137a4b" stop-opacity=".18"/><stop offset="1" stop-color="#f4f8f3" stop-opacity="0"/></radialGradient>
@@ -26,7 +26,7 @@ text { font-family:ui-monospace,'Liberation Mono',Consolas,monospace; fill:#152b
 <path d="M40 74V40H74 M926 40H960V74 M40 286V320H74 M926 320H960V286" fill="none" stroke="#137a4b" stroke-width="2"/>
 <text x="64" y="77" class="label">/ HOME / ADAM-ZS</text>
 <text x="58" y="188" font-size="102" font-weight="700" letter-spacing="-7">ADAM ZS<tspan style="fill:#137a4b">.</tspan></text>
-<text x="64" y="240" style="fill:#137a4b" font-size="22" letter-spacing="3">SECURITY / CODE / HARDWARE</text>
+<text x="64" y="240" style="fill:#137a4b" font-size="22" letter-spacing="3">CYBERSECURITY ENGINEER</text>
 <path d="M64 274H584" stroke="#c8d6ca"/>
 <path d="M64 274H584" stroke="url(#trace)" class="flow" stroke-width="2"/>
 <text x="64" y="308" class="label">PERSONAL LAB</text>
