@@ -1,30 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="551" viewBox="0 0 560 551" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="595" viewBox="0 0 560 595" role="img" aria-labelledby="title description">
   <title id="title">GitHub activity · 1,372 contributions</title>
   <desc id="description">GitHub contribution calendar through Nov 25, 2026. 1,372 contributions across 74 active days. Longest streak 19 days.</desc>
   <!-- Source: the public GitHub contribution calendar. Nov 23, 2025 – Nov 25, 2026. -->
   <defs>
     <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#eef8f0"/><stop offset="1" stop-color="#dceee9"/></linearGradient>
     <radialGradient id="radiance"><stop stop-color="#1b648f" stop-opacity=".16"/><stop offset="1" stop-color="#1b648f" stop-opacity="0"/></radialGradient>
-    <clipPath id="frame"><rect width="560" height="551" rx="22"/></clipPath>
+    <clipPath id="frame"><rect width="560" height="595" rx="22"/></clipPath>
   </defs>
   <style>
-    .ping { opacity: 0; }
+    .bullet, .hit { opacity:0; }
     @media (prefers-reduced-motion: no-preference) {
-      .ping { animation: ping .85s var(--delay) ease-out both; }
-      .craft { animation: glide 4.2s ease-in-out both; }
+      .craft { animation: steer 4.7s ease-in-out both; }
+      .bullet { animation: fire .38s var(--delay) linear forwards; }
+      .hit { transform-origin:0 0; animation: impact .53s var(--delay) ease-out forwards; }
     }
-    @keyframes ping { 0%, 100% { opacity:0; } 35% { opacity:1; } }
-    @keyframes glide {
-      from { transform: translateX(calc(-1 * var(--flight))); opacity:.35; }
-      48% { opacity:1; }
-      to { transform:translateX(0); opacity:1; }
+    @keyframes steer {
+    0% {transform:translateX(72.75px)}
+    13.830%, 21.915% {transform:translateX(126.75px)}
+    41.489%, 49.574% {transform:translateX(254.85px)}
+    69.149%, 77.234% {transform:translateX(382.95px)}
+    100% {transform:translateX(426.95px)}
+    }
+    @keyframes fire {
+      0% { opacity:.8; transform:translateY(0); }
+      92% { opacity:1; }
+      100% { opacity:0; transform:translateY(var(--rise)); }
+    }
+    @keyframes impact {
+      from { opacity:1; transform:scale(.45); }
+      to { opacity:0; transform:scale(1.55); }
     }
   </style>
   <g clip-path="url(#frame)">
-    <rect width="560" height="551" fill="url(#surface)"/>
-    <ellipse cx="405" cy="476" rx="257.6" ry="153" fill="url(#radiance)"/>
+    <rect width="560" height="595" fill="url(#surface)"/>
+    <ellipse cx="405" cy="520" rx="257.6" ry="153" fill="url(#radiance)"/>
     <rect width="560" height="43" fill="#deefe9"/>
-    <path d="M0 43h560M0 475h560" stroke="#9dbfb3"/>
+    <path d="M0 43h560M0 493h560" stroke="#9dbfb3"/>
     <circle cx="23" cy="21.5" r="4" fill="#945a21"/>
     <circle cx="37" cy="21.5" r="4" fill="#1b648f"/>
     <circle cx="51" cy="21.5" r="4" fill="#146648"/>
@@ -228,7 +239,6 @@
       <rect x="503.50" y="175.30" width="15.10" height="15.10" rx="2.5"/>
     </g>
 
-
     <g font-family="ui-monospace, Liberation Mono, monospace"><text x="64.3" y="299" fill="#415f58" font-size="13">Jun</text><text x="137.5" y="299" fill="#415f58" font-size="13">Jul</text><text x="210.7" y="299" fill="#415f58" font-size="13">Aug</text><text x="302.2" y="299" fill="#415f58" font-size="13">Sep</text><text x="375.4" y="299" fill="#415f58" font-size="13">Oct</text><text x="466.9" y="299" fill="#415f58" font-size="13">Nov</text><text x="37" y="340.4" text-anchor="end" fill="#415f58" font-size="11">Mon</text><text x="37" y="377.0" text-anchor="end" fill="#415f58" font-size="11">Wed</text><text x="37" y="413.6" text-anchor="end" fill="#415f58" font-size="11">Fri</text></g>
     <g fill="#dcece3">
       <rect x="46.00" y="310.00" width="15.10" height="15.10" rx="2.5"/>
@@ -426,26 +436,51 @@
       <rect x="247.30" y="346.60" width="15.10" height="15.10" rx="2.5"/>
       <rect x="338.80" y="310.00" width="15.10" height="15.10" rx="2.5"/>
     </g>
-    <circle cx="218.25" cy="335.85" r="9.0" fill="none" stroke="#146648" stroke-width="1.15" stroke-opacity=".55"/><circle class="ping" cx="218.25" cy="335.85" r="11.1" fill="none" stroke="#945a21" stroke-width="1.6" style="--delay:0.3s"/><circle cx="346.35" cy="317.55" r="9.0" fill="none" stroke="#146648" stroke-width="1.15" stroke-opacity=".55"/><circle class="ping" cx="346.35" cy="317.55" r="11.1" fill="none" stroke="#945a21" stroke-width="1.6" style="--delay:0.6s"/><circle cx="218.25" cy="317.55" r="9.0" fill="none" stroke="#146648" stroke-width="1.15" stroke-opacity=".55"/><circle class="ping" cx="218.25" cy="317.55" r="11.1" fill="none" stroke="#945a21" stroke-width="1.6" style="--delay:0.9s"/><circle cx="236.55" cy="335.85" r="9.0" fill="none" stroke="#146648" stroke-width="1.15" stroke-opacity=".55"/><circle class="ping" cx="236.55" cy="335.85" r="11.1" fill="none" stroke="#945a21" stroke-width="1.6" style="--delay:1.2s"/>
     <g font-family="ui-monospace, Liberation Mono, Consolas, monospace" font-size="11" fill="#415f58">
-      <text x="416" y="452" text-anchor="end">Less</text>
-      <rect x="425" y="442" width="11" height="11" rx="2" fill="#dcece3"/><rect x="440" y="442" width="11" height="11" rx="2" fill="#a6d9b9"/><rect x="455" y="442" width="11" height="11" rx="2" fill="#6abc8c"/><rect x="470" y="442" width="11" height="11" rx="2" fill="#32865e"/><rect x="485" y="442" width="11" height="11" rx="2" fill="#146246"/>
-      <text x="504" y="452">More</text>
-      <text x="27" y="509">Nov 23, 2025 – Nov 25, 2026</text>
+      <text x="416" y="482" text-anchor="end">Less</text>
+      <rect x="425" y="472" width="11" height="11" rx="2" fill="#dcece3"/><rect x="440" y="472" width="11" height="11" rx="2" fill="#a6d9b9"/><rect x="455" y="472" width="11" height="11" rx="2" fill="#6abc8c"/><rect x="470" y="472" width="11" height="11" rx="2" fill="#32865e"/><rect x="485" y="472" width="11" height="11" rx="2" fill="#146246"/>
+      <text x="504" y="482">More</text>
+      <text x="27" y="581">Nov 23, 2025 – Nov 25, 2026</text>
     </g>
-    <path d="M330 516H510" stroke="#1b648f" stroke-opacity=".34" stroke-dasharray="1 7" stroke-linecap="round"/>
 
-    <g transform="translate(504 507)">
-      <g class="craft" style="--flight:132px">
-        <path d="M-47 8h23m-33 7h26" stroke="#1b648f" stroke-opacity=".37" stroke-linecap="round"/>
-        <path d="M-12-4-25-13h3l15 8zm0 8-13 9h3l15-8z" fill="#1b648f" fill-opacity=".63"/>
-        <path d="M-16 0-22 5-17 12-7 4z" fill="#b85b39" fill-opacity=".8"/>
-        <path d="M-15-5 8-10 19 0 8 10-15 5-10 0z" fill="#1b648f" stroke="#19332a" stroke-width="1"/>
-        <path d="m2-5 9 5-9 5-5-5z" fill="#deefe9" stroke="#146648" stroke-width="1.1"/>
-        <circle cx="9" cy="0" r="1.7" fill="#146648"/>
+    <g transform="translate(126.75 432)">
+      <path class="bullet" style="--delay:0.65s;--rise:-41.25px" d="M0 6V-6" stroke="#945a21" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(126.75 390.75)">
+      <circle class="hit" style="--delay:1.03s" r="11" fill="none" stroke="#146648" stroke-width="2"/>
+      <path class="hit" style="--delay:1.03s" d="M-15 0h5m20 0h5M0-15v5m0 20v5" stroke="#945a21" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(254.85 432)">
+      <path class="bullet" style="--delay:1.95s;--rise:-77.85px" d="M0 6V-6" stroke="#945a21" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(254.85 354.15)">
+      <circle class="hit" style="--delay:2.33s" r="11" fill="none" stroke="#146648" stroke-width="2"/>
+      <path class="hit" style="--delay:2.33s" d="M-15 0h5m20 0h5M0-15v5m0 20v5" stroke="#945a21" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(382.95 432)">
+      <path class="bullet" style="--delay:3.25s;--rise:-41.25px" d="M0 6V-6" stroke="#945a21" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(382.95 390.75)">
+      <circle class="hit" style="--delay:3.63s" r="11" fill="none" stroke="#146648" stroke-width="2"/>
+      <path class="hit" style="--delay:3.63s" d="M-15 0h5m20 0h5M0-15v5m0 20v5" stroke="#945a21" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+    <g class="craft" style="transform:translateX(426.95px)">
+      <g transform="translate(0 452)">
+        <path d="M-10 5 0-16 10 5 4 3 0 7-4 3Z" fill="#1b648f" stroke="#19332a" stroke-width="1.2" stroke-linejoin="round"/>
+        <path d="M-3 7 0 15 3 7" fill="#945a21"/>
+        <path d="M0-9 3-2 0 1-3-2Z" fill="#deefe9" stroke="#146648" stroke-width="1"/>
       </g>
     </g>
 
+    <g font-family="ui-monospace, Liberation Mono, Consolas, monospace">
+      <text x="27" y="537" font-size="15" fill="#19332a">222 on busiest day</text>
+      <text x="27" y="560" font-size="13" fill="#415f58">24 active weeks</text>
+      <text x="269" y="518" font-size="12" fill="#415f58">WEEKLY CONTRIBUTIONS</text>
+    </g>
+    <rect x="269.0" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="273.7" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="278.4" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="283.1" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="287.8" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="292.5" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="297.2" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="301.9" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="306.6" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="311.3" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="316.0" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="320.7" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="325.4" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="330.1" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="334.8" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="339.5" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="344.2" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="348.9" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="353.6" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="358.3" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="363.0" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="367.7" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="372.4" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="377.1" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="381.8" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="386.5" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="391.2" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="395.9" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="400.6" y="555.9" width="3.3" height="1.1" rx="1" fill="#146648" opacity="0.85"/><rect x="405.3" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="410.0" y="554.9" width="3.3" height="2.1" rx="1" fill="#146648" opacity="0.85"/><rect x="414.7" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="419.4" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="424.1" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/><rect x="428.8" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="433.5" y="526.0" width="3.3" height="31.0" rx="1" fill="#945a21" opacity="0.85"/><rect x="438.2" y="545.9" width="3.3" height="11.1" rx="1" fill="#146648" opacity="0.85"/><rect x="442.9" y="548.6" width="3.3" height="8.4" rx="1" fill="#146648" opacity="0.85"/><rect x="447.6" y="554.5" width="3.3" height="2.5" rx="1" fill="#146648" opacity="0.85"/><rect x="452.3" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="457.0" y="549.1" width="3.3" height="7.9" rx="1" fill="#146648" opacity="0.85"/><rect x="461.7" y="545.1" width="3.3" height="11.9" rx="1" fill="#146648" opacity="0.85"/><rect x="466.4" y="546.3" width="3.3" height="10.7" rx="1" fill="#146648" opacity="0.85"/><rect x="471.1" y="549.0" width="3.3" height="8.0" rx="1" fill="#146648" opacity="0.85"/><rect x="475.8" y="547.5" width="3.3" height="9.5" rx="1" fill="#146648" opacity="0.85"/><rect x="480.5" y="555.7" width="3.3" height="1.3" rx="1" fill="#146648" opacity="0.85"/><rect x="485.2" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="489.9" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="494.6" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="499.3" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="504.0" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="508.7" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.23"/><rect x="513.4" y="556.0" width="3.3" height="1.0" rx="1" fill="#146648" opacity="0.85"/>
+
   </g>
-  <rect x="1" y="1" width="558" height="549" rx="21" fill="none" stroke="#9dbfb3" stroke-width="2"/>
+  <rect x="1" y="1" width="558" height="593" rx="21" fill="none" stroke="#9dbfb3" stroke-width="2"/>
 </svg>
