@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="210" viewBox="0 0 1040 210" role="img" aria-labelledby="title">
+  <title id="title">Toolbox · Python, C++, JavaScript, React, Linux, Docker, Git, Arduino</title>
+
+  <rect x="1" y="1" width="1038" height="208" rx="20" fill="#080e10" stroke="#28433d" stroke-width="2"/>
+  <g font-family="ui-monospace, Liberation Mono, Consolas, monospace">
+    <text x="40" y="47" font-size="24" font-weight="700" fill="#6dfbb0">$ <tspan fill="#eefcf3">ls toolbox/</tspan></text>
+    <path d="M40 59h960" stroke="#28433d"/>
+    <rect x="40" y="77" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="62" cy="100.5" r="4" fill="#6dfbb0"/>
+    <text x="82" y="107" fill="#eefcf3" font-size="21" font-weight="700">Python</text>
+    <rect x="285" y="77" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="307" cy="100.5" r="4" fill="#f3cd81"/>
+    <text x="327" y="107" fill="#eefcf3" font-size="21" font-weight="700">C++</text>
+    <rect x="530" y="77" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="552" cy="100.5" r="4" fill="#f3cd81"/>
+    <text x="572" y="107" fill="#eefcf3" font-size="21" font-weight="700">JavaScript</text>
+    <rect x="775" y="77" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="797" cy="100.5" r="4" fill="#88dfea"/>
+    <text x="817" y="107" fill="#eefcf3" font-size="21" font-weight="700">React</text>
+    <rect x="40" y="136" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="62" cy="159.5" r="4" fill="#c8b9ff"/>
+    <text x="82" y="166" fill="#eefcf3" font-size="21" font-weight="700">Linux</text>
+    <rect x="285" y="136" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="307" cy="159.5" r="4" fill="#88dfea"/>
+    <text x="327" y="166" fill="#eefcf3" font-size="21" font-weight="700">Docker</text>
+    <rect x="530" y="136" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="552" cy="159.5" r="4" fill="#6dfbb0"/>
+    <text x="572" y="166" fill="#eefcf3" font-size="21" font-weight="700">Git</text>
+    <rect x="775" y="136" width="225" height="47" rx="9" fill="#101e1e" stroke="#28433d"/>
+    <circle cx="797" cy="159.5" r="4" fill="#c8b9ff"/>
+    <text x="817" y="166" fill="#eefcf3" font-size="21" font-weight="700">Arduino</text>
+  </g>
+</svg>
