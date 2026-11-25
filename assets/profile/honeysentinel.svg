@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="186" viewBox="0 0 820 186" role="img" aria-labelledby="title">
+  <title id="title">HoneySentinel AI, collaborative honeypot capstone</title>
+  <defs>
+    <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#17172a"/><stop offset="1" stop-color="#292247"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#927be2" stop-opacity=".39"/><stop offset="1" stop-color="#927be2" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="820" height="186" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="820" height="186" fill="url(#surface)"/>
+    <ellipse cx="647" cy="106" rx="207" ry="153" fill="url(#light)"/>
+    <g fill="none" stroke="#af9de4" stroke-opacity=".32">
+      <path d="m646-21 128 71v104l-128 71-128-71V50Z"/>
+      <path d="m646 4 107 58v79l-107 60-107-60V62Z"/>
+      <path d="M510 102h270M646 0v186"/>
+    </g>
+    <g transform="translate(646 95)" fill="#252140" stroke="#cbbdfb" stroke-width="1.6">
+      <path d="m0-50 43 25v50L0 50l-43-25v-50Z"/>
+      <path d="m0-25 22 12v25L0 25l-22-13v-25Z"/>
+      <circle r="5" fill="#ded1ff"/>
+    </g>
+    <g font-family="system-ui, sans-serif">
+      <text x="33" y="47" fill="#cbbcf4" font-size="16" font-weight="700">COLLABORATIVE CAPSTONE</text>
+      <text x="31" y="102" fill="#f7f1ff" font-size="42" font-weight="750">HoneySentinel AI</text>
+      <text x="34" y="143" fill="#d0c4e6" font-size="22">Honeypot monitoring interface</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="818" height="184" rx="19" fill="none" stroke="#73679f" stroke-width="2"/>
+</svg>

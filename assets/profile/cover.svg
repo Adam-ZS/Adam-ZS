@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="370" viewBox="0 0 1080 370" role="img" aria-labelledby="title description">
+  <title id="title">Adam Soman · Cybersecurity Engineering</title>
+  <desc id="description">Adam’s name alongside an illustrated network trace. Penetration testing, network security, and software development.</desc>
+  <defs>
+    <linearGradient id="base" x2="1" y2="1">
+      <stop stop-color="#141720"/><stop offset="1" stop-color="#182830"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#3abcae" stop-opacity=".35"/><stop offset="1" stop-color="#3abcae" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x2="1" y2="1">
+      <stop stop-color="#65a9fa"/><stop offset=".65" stop-color="#94f1cf"/><stop offset="1" stop-color="#f1d19a"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#a4c6ce" fill-opacity=".25"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1080" height="370" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .route { animation: signal 4s ease-out both; }
+    @keyframes signal { from { stroke-dashoffset: 390; opacity: .35; } to { stroke-dashoffset: 0; opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .route { animation: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1080" height="370" fill="url(#base)"/>
+    <ellipse cx="850" cy="160" rx="280" ry="225" fill="url(#glow)"/>
+    <path d="M629 0h451v370H530Z" fill="url(#dots)" opacity=".7"/>
+    <path d="M629 0 530 370M650 0 551 370" stroke="#607b84" stroke-opacity=".2"/>
+    <path d="M48 311h982" stroke="#657983" stroke-opacity=".5"/>
+    <path d="M48 311h206" stroke="#92edd0" stroke-width="2"/>
+    <g transform="translate(817 175)" fill="none">
+      <path d="M-152-95-14-123 150-70v134L10 127l-158-64z" stroke="#70919a" stroke-opacity=".46"/>
+      <path d="M-152-95-75-40 62-73 150-70m-225 30-73 103m210-136v110l88 27M-14-123l-61 83v108l85 59m-85-59 137-31L10 127" stroke="#91b1b7" stroke-opacity=".4"/>
+      <path d="M-210 8h51l24-28h55l31 40H0l29-58h64l39 46h85" stroke="#375d65" stroke-width="5" stroke-linejoin="round"/>
+      <path class="route" d="M-210 8h51l24-28h55l31 40H0l29-58h64l39 46h85"
+        stroke="url(#trace)" stroke-width="2.7" stroke-dasharray="540 540" stroke-linejoin="round"/>
+      <g fill="#183039" stroke="#8fd1c8" stroke-width="1.4">
+        <circle cx="-152" cy="-95" r="5"/><circle cx="-14" cy="-123" r="5"/>
+        <circle cx="150" cy="-70" r="5"/><circle cx="-148" cy="63" r="5"/>
+        <circle cx="150" cy="64" r="5"/><circle cx="10" cy="127" r="5"/>
+      </g>
+      <g fill="#b5f5dc">
+        <circle cx="-210" cy="8" r="4"/><circle cx="-80" cy="-20" r="4"/>
+        <circle cy="20" r="5"/><circle cx="93" cy="-38" r="4"/><circle cx="217" cy="8" r="4"/>
+      </g>
+      <circle cy="20" r="14" stroke="#b5f5dc" stroke-opacity=".5"/>
+    </g>
+    <g font-family="system-ui, sans-serif">
+      <text x="50" y="82" fill="#a4edd6" font-size="21" font-weight="650" letter-spacing=".4">Cybersecurity Engineering</text>
+      <text x="45" y="175" fill="#f5f1e9" font-size="85" font-weight="750" letter-spacing="-3">Adam Soman</text>
+      <text x="51" y="222" fill="#c4d0d7" font-size="25">Penetration testing &amp; software development</text>
+      <rect x="50" y="253" width="148" height="33" rx="16.5" fill="#234138" stroke="#4a7d69"/>
+      <text x="124" y="275" text-anchor="middle" fill="#baf4d9" font-size="15" font-weight="700">eJPT certified</text>
+      <text x="50" y="344" fill="#aebec6" font-size="16" font-weight="600">@Adam-ZS</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1078" height="368" rx="27" fill="none" stroke="#74878c" stroke-opacity=".6" stroke-width="2"/>
+</svg>

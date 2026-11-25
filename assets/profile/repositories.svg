@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="46" viewBox="0 0 162 46" role="img" aria-labelledby="title">
+  <title id="title">Repositories</title>
+  <rect x="1" y="1" width="160" height="44" rx="13" fill="#342a49" stroke="#dccef7" stroke-opacity=".55"/>
+  <path d="M4 2h12v15l-3 3H4z M4 16h12 M7 6h6 M7 10h5" transform="translate(15 12)" fill="none" stroke="#dccef7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="44" y="29" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#dccef7">Repositories</text>
+</svg>
