@@ -13,6 +13,16 @@
   </p>
   <h2>Featured projects</h2>
   <p>
+    <a href="https://github.com/mandoof1/honeypot-ui">
+      <picture>
+        <source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/feature-honeysentinel-mobile-light.gif">
+        <source media="(max-width: 580px)" srcset="assets/terminal-profile/feature-honeysentinel-mobile-dark.gif">
+        <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/feature-honeysentinel-light.gif">
+        <img src="assets/terminal-profile/feature-honeysentinel-dark.gif" width="810" alt="HoneySentinel. Review captured honeypot sessions, trace activity, and organize investigation evidence. Opens the original repository.">
+      </picture>
+    </a>
+  </p>
+  <p>
     <a href="https://github.com/Adam-ZS/packet-tracer-mcp">
       <picture>
         <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/feature-packet-tracer-light.gif">
