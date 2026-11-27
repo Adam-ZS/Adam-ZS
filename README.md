@@ -1,5 +1,14 @@
 <div align="center">
-  <picture><source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-mobile-light.svg"><source media="(max-width: 580px)" srcset="assets/terminal-profile/console-mobile-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/console-light.svg"><img src="assets/terminal-profile/console-dark.svg" width="100%" alt="Adam ZS · Cybersecurity Engineer. eJPT certified. Penetration testing, network security, and software development. A dotted world map illustrates network routes."></picture>
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-mobile-light.svg">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 580px)" srcset="assets/terminal-profile/console-mobile-dark.svg">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-light.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-profile/console-dark.svg">
+    <source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-loop-mobile-light.gif">
+    <source media="(max-width: 580px)" srcset="assets/terminal-profile/console-loop-mobile-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/console-loop-light.gif">
+    <img src="assets/terminal-profile/console-loop-dark.gif" width="100%" alt="Adam ZS, Cybersecurity Engineer, eJPT certified. Penetration testing, network security, and software development. Network signals travel across a dotted map.">
+  </picture>
   <p>
   <a href="https://adam-zs-portfolio.vercel.app/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/portfolio-light.svg"><img src="assets/terminal-profile/portfolio-dark.svg" width="168" alt="View portfolio"></picture></a>
   <a href="https://github.com/Adam-ZS?tab=repositories"><picture><source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/repositories-light.svg"><img src="assets/terminal-profile/repositories-dark.svg" width="168" alt="Browse all repositories"></picture></a>
@@ -9,10 +18,14 @@
   <!-- contribution calendar -->
   <a href="https://github.com/users/Adam-ZS/contributions">
     <picture>
-      <source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-mobile-light.svg">
-      <source media="(max-width: 580px)" srcset="assets/terminal-profile/activity-mobile-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-light.svg">
-      <img src="assets/terminal-profile/activity-dark.svg" width="100%" alt="GitHub contribution calendar through Nov 25, 2026. 1,372 contributions across 74 active days. Longest streak 19 days.">
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-mobile-light.svg">
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 580px)" srcset="assets/terminal-profile/activity-mobile-dark.svg">
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-light.svg">
+      <source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-profile/activity-dark.svg">
+      <source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-loop-mobile-light.gif">
+      <source media="(max-width: 580px)" srcset="assets/terminal-profile/activity-loop-mobile-dark.gif">
+      <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-loop-light.gif">
+      <img src="assets/terminal-profile/activity-loop-dark.gif" width="100%" alt="GitHub contribution calendar through Nov 25, 2026. 1,372 contributions across 74 active days. Longest streak 19 days. A spacecraft travels along the calendar.">
     </picture>
   </a>
   <!-- end contribution calendar -->
