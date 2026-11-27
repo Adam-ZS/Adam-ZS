@@ -1,9 +1,5 @@
 <div align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-mobile-light.svg">
-    <source media="(prefers-reduced-motion: reduce) and (max-width: 580px)" srcset="assets/terminal-profile/console-mobile-dark.svg">
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-light.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-profile/console-dark.svg">
     <source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/console-loop-mobile-light.gif">
     <source media="(max-width: 580px)" srcset="assets/terminal-profile/console-loop-mobile-dark.gif">
     <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/console-loop-light.gif">
@@ -18,16 +14,13 @@
   <!-- contribution calendar -->
   <a href="https://github.com/users/Adam-ZS/contributions">
     <picture>
-      <source media="(prefers-reduced-motion: reduce) and (max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-mobile-light.svg">
-      <source media="(prefers-reduced-motion: reduce) and (max-width: 580px)" srcset="assets/terminal-profile/activity-mobile-dark.svg">
-      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-light.svg">
-      <source media="(prefers-reduced-motion: reduce)" srcset="assets/terminal-profile/activity-dark.svg">
       <source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-loop-mobile-light.gif">
       <source media="(max-width: 580px)" srcset="assets/terminal-profile/activity-loop-mobile-dark.gif">
       <source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/activity-loop-light.gif">
       <img src="assets/terminal-profile/activity-loop-dark.gif" width="100%" alt="GitHub contribution calendar through Nov 25, 2026. 1,372 contributions across 74 active days. Longest streak 19 days. A spacecraft travels along the calendar.">
     </picture>
   </a>
+  <p><a href="assets/terminal-profile/activity-loop-dark.gif?raw=1">Open the contribution animation</a></p>
   <!-- end contribution calendar -->
   <picture><source media="(max-width: 580px) and (prefers-color-scheme: light)" srcset="assets/terminal-profile/toolbox-mobile-light.svg"><source media="(max-width: 580px)" srcset="assets/terminal-profile/toolbox-mobile-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/terminal-profile/toolbox-light.svg"><img src="assets/terminal-profile/toolbox-dark.svg" width="100%" alt="Toolbox · Python, C++, JavaScript, React, Linux, Docker, Git, and Arduino"></picture>
 </div>
